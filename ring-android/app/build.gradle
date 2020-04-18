@@ -3,24 +3,32 @@ apply plugin: 'com.android.application'
 def buildFirebase = project.hasProperty('buildFirebase')
 
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.3'
+    compileSdkVersion 29
+    buildToolsVersion '29.0.3'
 
     defaultConfig {
         minSdkVersion 18
-        targetSdkVersion 27
+        targetSdkVersion 29
         vectorDrawables.useSupportLibrary = true
+    }
+
+    externalNativeBuild {
+        cmake {
+//            version "3.6.0"
+//            path "globals.mk"
+        }
     }
 
     sourceSets {
         main {
             aidl.srcDirs = ['src/main/java']
-            jniLibs.srcDir 'src/main/libs'
+            jniLibs.srcDir 'src/main/cpp'
+//            jniLibs.srcDir 'src/main/cpp/bin/jni'
             jni.srcDirs = []
         }
 
         // Move the tests to tests/java, tests/res, etc...
-        instrumentTest.setRoot('tests')
+//        instrumentTest.setRoot('tests')
 
         // Move the build types to build-types/<type>
         // For instance, build-types/debug/java, build-types/debug/AndroidManifest.xml, ...
