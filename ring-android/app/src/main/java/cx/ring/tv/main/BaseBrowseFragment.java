@@ -24,6 +24,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import androidx.leanback.app.BrowseFragment;
+import androidx.leanback.app.BrowseSupportFragment;
 
 import javax.inject.Inject;
 
@@ -32,7 +33,7 @@ import cx.ring.model.RingError;
 import cx.ring.mvp.BaseView;
 import cx.ring.mvp.RootPresenter;
 
-public class BaseBrowseFragment<T extends RootPresenter> extends BrowseFragment implements BaseView {
+public class BaseBrowseFragment<T extends RootPresenter> extends BrowseSupportFragment implements BaseView {
 
     protected static final String TAG = BaseBrowseFragment.class.getSimpleName();
 

@@ -24,9 +24,9 @@ import android.util.Log;
 import android.view.View;
 
 import androidx.fragment.app.Fragment;
-import androidx.leanback.preference.LeanbackSettingsFragment;
+import androidx.leanback.preference.LeanbackSettingsFragmentCompat;
 import androidx.preference.Preference;
-import androidx.preference.PreferenceFragment;
+import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
 
@@ -37,7 +37,7 @@ import cx.ring.fragments.GeneralAccountView;
 import cx.ring.model.Account;
 import cx.ring.model.ConfigKey;
 
-public class TVSettingsFragment extends LeanbackSettingsFragment {
+public class TVSettingsFragment extends LeanbackSettingsFragmentCompat {
 
     @Override
     public void onPreferenceStartInitialScreen() {
@@ -45,15 +45,15 @@ public class TVSettingsFragment extends LeanbackSettingsFragment {
     }
 
     @Override
-    public boolean onPreferenceStartFragment(PreferenceFragment preferenceFragment, Preference preference) {
+    public boolean onPreferenceStartFragment(PreferenceFragmentCompat caller, Preference pref) {
         return false;
     }
 
     @Override
-    public boolean onPreferenceStartScreen(PreferenceFragment caller, PreferenceScreen pref) {
+    public boolean onPreferenceStartScreen(PreferenceFragmentCompat caller, PreferenceScreen pref) {
         final Fragment prefsFragment = PrefsFragment.newInstance();
         final Bundle args = new Bundle();
-        args.putString(PreferenceFragment.ARG_PREFERENCE_ROOT, pref.getKey());
+        args.putString(PreferenceFragmentCompat.ARG_PREFERENCE_ROOT, pref.getKey());
         prefsFragment.setArguments(args);
         startPreferenceFragment(prefsFragment);
         return true;

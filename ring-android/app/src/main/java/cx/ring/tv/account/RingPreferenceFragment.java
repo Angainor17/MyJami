@@ -22,13 +22,13 @@ package cx.ring.tv.account;
 import android.os.Bundle;
 import android.view.View;
 
-import androidx.leanback.preference.LeanbackPreferenceFragment;
+import androidx.leanback.preference.LeanbackPreferenceFragmentCompat;
 
 import javax.inject.Inject;
 
 import cx.ring.mvp.RootPresenter;
 
-public abstract class RingPreferenceFragment<T extends RootPresenter> extends LeanbackPreferenceFragment {
+public abstract class RingPreferenceFragment<T extends RootPresenter> extends LeanbackPreferenceFragmentCompat {
 
     protected static final String TAG = RingPreferenceFragment.class.getSimpleName();
 
