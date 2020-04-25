@@ -22,8 +22,7 @@ package cx.ring.account;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.app.ActionBar;
+import com.google.android.material.textfield.TextInputLayout;
 import android.text.Editable;
 import android.text.InputFilter;
 import android.view.View;
@@ -32,6 +31,8 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Switch;
+
+import androidx.appcompat.app.ActionBar;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

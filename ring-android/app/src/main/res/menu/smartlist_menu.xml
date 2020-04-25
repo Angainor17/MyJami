@@ -6,11 +6,10 @@
 
     <item
         android:id="@+id/menu_contact_search"
-        android:actionViewClass="android.widget.SearchView"
         android:hint="@string/searchbar_hint"
         android:icon="@drawable/ic_search_white"
         android:title="@string/searchbar_hint"
-        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
         app:showAsAction="collapseActionView|always" />
 
     <item

@@ -21,11 +21,12 @@ package cx.ring.fragments;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v7.preference.EditTextPreference;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.SwitchPreferenceCompat;
-import android.support.v7.preference.TwoStatePreference;
 import android.view.inputmethod.EditorInfo;
+
+import androidx.preference.EditTextPreference;
+import androidx.preference.Preference;
+import androidx.preference.SwitchPreferenceCompat;
+import androidx.preference.TwoStatePreference;
 
 import cx.ring.R;
 import cx.ring.account.AccountEditionActivity;

@@ -20,8 +20,9 @@
 package cx.ring.tv.account;
 
 import android.os.Bundle;
-import android.support.v17.preference.LeanbackPreferenceFragment;
 import android.view.View;
+
+import androidx.leanback.preference.LeanbackPreferenceFragment;
 
 import javax.inject.Inject;
 

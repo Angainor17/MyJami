@@ -60,7 +60,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                     tools:text="Registered" />
 
 
-                <android.support.v7.widget.SwitchCompat
+                <androidx.appcompat.widget.SwitchCompat
                     android:id="@+id/account_switch"
                     android:layout_width="50dp"
                     android:layout_height="wrap_content"

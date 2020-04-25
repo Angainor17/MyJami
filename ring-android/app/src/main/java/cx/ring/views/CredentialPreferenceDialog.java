@@ -22,11 +22,12 @@ import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v14.preference.PreferenceDialogFragment;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+
+import androidx.preference.PreferenceDialogFragment;
 
 import cx.ring.R;
 import cx.ring.model.AccountCredentials;

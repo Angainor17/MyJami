@@ -13,10 +13,10 @@ android {
     }
 
     externalNativeBuild {
-        cmake {
-//            version "3.6.0"
-//            path "globals.mk"
-        }
+//        cmake {
+//            version "3.10.2"
+//            path "C:\\Users\\angai\\AndroidStudioProjects\\ring-project\\client-android\\ring-android\\app\\src\\main\\cpp\\daemon\\CMakeLists.txt"
+//        }
     }
 
     sourceSets {
@@ -83,23 +83,44 @@ android {
 }
 
 dependencies {
-    def android_support_version = "27.0.2"
+//    def android_support_version = "27.0.2"
     def butterknife_version = "8.8.1"
     def dagger_version = "2.12"
 
     implementation fileTree(include: '*.jar', dir: 'libs')
     implementation project(':libringclient')
 
-    implementation "com.android.support:support-v13:$android_support_version"
-    implementation "com.android.support:design:$android_support_version"
-    implementation "com.android.support:cardview-v7:$android_support_version"
-    implementation "com.android.support:preference-v14:$android_support_version"
-    implementation "com.android.support:recyclerview-v7:$android_support_version"
-    implementation "com.android.support:appcompat-v7:$android_support_version"
-    implementation "com.android.support:leanback-v17:$android_support_version"
-    implementation "com.android.support:preference-leanback-v17:$android_support_version"
 
-    // ORM
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+
+
+//    implementation 'com.android.support:design:27.1.1'
+//    implementation "com.android.support:support-v13:$android_support_version"
+//    implementation "com.android.support:design:$android_support_version"
+//    implementation "com.android.support:cardview-v7:$android_support_version"
+//    implementation "com.android.support:preference-v14:$android_support_version"
+//    implementation "com.android.support:recyclerview-v7:$android_support_version"
+//    implementation "com.android.support:appcompat-v7:$android_support_version"
+//    implementation "com.android.support:leanback-v17:27.0.2"
+//    implementation "com.android.support:preference-leanback-v17:27.0.2"
+
+
+    // https://mvnrepository.com/artifact/com.googlecode.ez-vcard/ez-vcard
+    implementation group: 'com.googlecode.ez-vcard', name: 'ez-vcard', version: '0.10.2'
+
+
+    def leanback_version = "1.0.0"
+
+    implementation "androidx.leanback:leanback:$leanback_version"
+
+    // leanback-preference is an add-on that provides a settings UI for TV apps.
+    implementation "androidx.leanback:leanback-preference:$leanback_version"
+//
+//    // ORM
     implementation 'com.j256.ormlite:ormlite-android:4.48'
 
     // Barcode scanning

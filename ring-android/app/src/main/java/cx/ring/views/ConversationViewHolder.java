@@ -20,12 +20,13 @@
  */
 package cx.ring.views;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import cx.ring.R;
 import cx.ring.adapters.ConversationAdapter;

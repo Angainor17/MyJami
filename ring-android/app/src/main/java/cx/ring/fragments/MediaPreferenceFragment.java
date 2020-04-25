@@ -28,11 +28,13 @@ import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
-import android.support.v13.app.FragmentCompat;
-import android.support.v14.preference.SwitchPreference;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.preference.Preference;
-import android.support.v7.preference.TwoStatePreference;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.fragment.app.Fragment;
+import androidx.preference.Preference;
+import androidx.preference.SwitchPreference;
+import androidx.preference.TwoStatePreference;
 
 import java.io.File;
 import java.util.ArrayList;
@@ -48,7 +50,7 @@ import cx.ring.mvp.BasePreferenceFragment;
 import cx.ring.utils.FileUtils;
 
 public class MediaPreferenceFragment extends BasePreferenceFragment<MediaPreferencePresenter>
-        implements FragmentCompat.OnRequestPermissionsResultCallback, MediaPreferenceView {
+        implements ActivityCompat.OnRequestPermissionsResultCallback, MediaPreferenceView {
 
     public static final String TAG = MediaPreferenceFragment.class.getSimpleName();
     private static final int SELECT_RINGTONE_PATH = 40;

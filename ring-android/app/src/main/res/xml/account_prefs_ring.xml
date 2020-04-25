@@ -18,23 +18,23 @@ You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software         
  Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.          
 -->
-<android.support.v7.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
 
-    <android.support.v7.preference.PreferenceCategory android:title="@string/account_basic_category" >
-        <android.support.v7.preference.EditTextPreference
+    <PreferenceCategory android:title="@string/account_basic_category" >
+        <EditTextPreference
             android:id="@+id/account_alias"
             android:key="Account.alias"
             android:persistent="false"
             android:summary=""
             android:title="@string/account_alias_label" />
-        <android.support.v7.preference.EditTextPreference
+        <EditTextPreference
             android:key="Account.hostname"
             android:persistent="false"
             android:summary=""
             android:title="@string/account_bootstrap_label" />
-    </android.support.v7.preference.PreferenceCategory>
-    <android.support.v7.preference.PreferenceCategory android:title="@string/account_optionnal_category" >
-        <android.support.v7.preference.EditTextPreference
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/account_optionnal_category" >
+        <EditTextPreference
             android:defaultValue=""
             android:key="Account.useragent"
             android:persistent="false"
@@ -50,6 +50,6 @@ along with this program; if not, write to the Free Software
             android:key="Account.upnpEnabled"
             android:persistent="false"
             android:title="@string/account_upnp_label" />
-    </android.support.v7.preference.PreferenceCategory>
+    </PreferenceCategory>
 
-</android.support.v7.preference.PreferenceScreen>
+</PreferenceScreen>

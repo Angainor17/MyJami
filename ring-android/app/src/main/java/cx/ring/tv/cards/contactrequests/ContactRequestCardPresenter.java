@@ -23,8 +23,9 @@ import android.content.Context;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.v17.leanback.widget.ImageCardView;
 import android.view.ContextThemeWrapper;
+
+import androidx.leanback.widget.ImageCardView;
 
 import cx.ring.R;
 import cx.ring.tv.cards.AbstractCardPresenter;

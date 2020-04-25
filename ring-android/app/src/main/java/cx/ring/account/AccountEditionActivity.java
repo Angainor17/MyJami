@@ -24,7 +24,6 @@ package cx.ring.account;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Fragment;
-import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
@@ -32,17 +31,20 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.annotation.StringRes;
-import android.support.design.widget.TabLayout;
-import android.support.v13.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
+
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.viewpager.widget.ViewPager;
+
+import com.google.android.material.tabs.TabLayout;
 
 import javax.inject.Inject;
 
@@ -109,7 +111,7 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
     @Override
     public void initViewPager(String accountId, boolean isRing) {
         mViewPager.setOffscreenPageLimit(4);
-        mViewPager.setAdapter(new PreferencesPagerAdapter(getFragmentManager(), AccountEditionActivity.this, accountId, isRing));
+        mViewPager.setAdapter(new PreferencesPagerAdapter(getSupportFragmentManager(), AccountEditionActivity.this, accountId, isRing));
 
         mSlidingTabLayout.setupWithViewPager(mViewPager);
     }

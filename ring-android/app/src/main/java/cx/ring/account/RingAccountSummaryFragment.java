@@ -25,10 +25,9 @@ import android.app.ProgressDialog;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.support.design.widget.TextInputLayout;
+import com.google.android.material.textfield.TextInputLayout;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.graphics.drawable.DrawableCompat;
-import android.support.v7.widget.SwitchCompat;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -44,6 +43,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
+
+import androidx.appcompat.widget.SwitchCompat;
 
 import java.util.Map;
 

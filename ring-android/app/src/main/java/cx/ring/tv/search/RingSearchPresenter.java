@@ -37,7 +37,6 @@ import cx.ring.utils.Observer;
 import cx.ring.utils.VCardUtils;
 import ezvcard.VCard;
 
-
 public class RingSearchPresenter extends RootPresenter<RingSearchView> implements Observer<ServiceEvent> {
 
     private AccountService mAccountService;
@@ -109,7 +108,6 @@ public class RingSearchPresenter extends RootPresenter<RingSearchView> implement
                 if (mNameLookupInputHandler == null) {
                     mNameLookupInputHandler = new NameLookupInputHandler(mAccountService, currentAccount.getAccountID());
                 }
-
                 mLastBlockchainQuery = query;
                 mNameLookupInputHandler.enqueueNextLookup(query);
             }

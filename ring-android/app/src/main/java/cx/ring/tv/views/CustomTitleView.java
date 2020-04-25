@@ -15,7 +15,6 @@ package cx.ring.tv.views;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
-import android.support.v17.leanback.widget.TitleViewAdapter;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -23,12 +22,14 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import androidx.leanback.widget.TitleViewAdapter;
+
 import com.bumptech.glide.Glide;
 
 import cx.ring.R;
 
 /**
- * Custom title view to be used in {@link android.support.v17.leanback.app.BrowseFragment}.
+ * Custom title view to be used in {@link androidx.leanback.app.BrowseSupportFragment}.
  */
 public class CustomTitleView extends RelativeLayout implements TitleViewAdapter.Provider {
     private final TextView mAliasView;

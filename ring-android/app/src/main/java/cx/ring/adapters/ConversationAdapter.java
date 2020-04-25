@@ -22,12 +22,13 @@ package cx.ring.adapters;
 
 import android.content.Context;
 import android.support.annotation.Nullable;
-import android.support.v7.widget.RecyclerView;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
@@ -412,8 +413,8 @@ public class ConversationAdapter extends RecyclerView.Adapter<ConversationViewHo
      * Helper method determining if a given conversationElement should be distinguished from the
      * previous ie. if their configuration is not the same.
      *
-     * @param textMessage       The conversationElement at the given position
-     * @param position The position of the current message
+     * @param textMessage The conversationElement at the given position
+     * @param position    The position of the current message
      * @return true if the configuration is the same as the previous message, false otherwise.
      */
     private boolean isMessageConfigSameAsPrevious(final TextMessage textMessage,
