@@ -21,16 +21,12 @@
  */
 package cx.ring.account;
 
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -38,10 +34,13 @@ import android.view.View;
 import android.widget.FrameLayout;
 
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import android.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
+import androidx.fragment.app.FragmentTransaction;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
@@ -103,7 +102,7 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
         Bundle args = new Bundle();
         args.putString(ACCOUNT_ID_KEY, accountId);
         ringAccountSummaryFragment.setArguments(args);
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .replace(R.id.fragment_container, ringAccountSummaryFragment, RingAccountSummaryFragment.TAG)
                 .commit();
     }
@@ -136,7 +135,7 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
         Bundle args = new Bundle();
         args.putString(ACCOUNT_ID_KEY, accountId);
         blackListFragment.setArguments(args);
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .addToBackStack(BlackListFragment.TAG)
                 .replace(R.id.fragment_container, blackListFragment, BlackListFragment.TAG)
@@ -210,7 +209,7 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
 
     @NonNull
     private AlertDialog createDeleteDialog() {
-        Activity ownerActivity = this;
+        AppCompatActivity ownerActivity = this;
         AlertDialog alertDialog = new AlertDialog.Builder(ownerActivity)
                 .setMessage(R.string.account_delete_dialog_message)
                 .setTitle(R.string.account_delete_dialog_title)
@@ -306,7 +305,6 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
             return mContext.getString(resId);
         }
 
-        @Nullable
         private Fragment getRingPanel(int position) {
             switch (position) {
                 case 0:
@@ -320,7 +318,6 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
             }
         }
 
-        @Nullable
         private Fragment getSIPPanel(int position) {
             switch (position) {
                 case 0:

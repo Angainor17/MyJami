@@ -16,6 +16,7 @@ package cx.ring.tv.main;
 import android.content.Intent;
 import android.os.Bundle;
 
+import androidx.core.app.ActivityOptionsCompat;
 import androidx.leanback.app.BackgroundManager;
 import androidx.leanback.app.GuidedStepFragment;
 import androidx.leanback.widget.ArrayObjectAdapter;
@@ -26,7 +27,6 @@ import androidx.leanback.widget.Presenter;
 import androidx.leanback.widget.PresenterSelector;
 import androidx.leanback.widget.Row;
 import androidx.leanback.widget.RowPresenter;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.LayoutInflater;

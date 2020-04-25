@@ -22,8 +22,9 @@ package cx.ring.tv.cards.iconcards;
 import android.animation.ObjectAnimator;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+
+import androidx.core.content.ContextCompat;
 import androidx.leanback.widget.ImageCardView;
-import android.support.v4.content.ContextCompat;
 import android.view.ContextThemeWrapper;
 import android.widget.ImageView;
 

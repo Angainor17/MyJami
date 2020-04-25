@@ -24,8 +24,8 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.annotation.NonNull;
-import android.support.v17.leanback.app.GuidedStepFragment;
+import androidx.annotation.NonNull;
+import androidx.leanback.app.GuidedStepFragment;
 
 import javax.inject.Inject;
 

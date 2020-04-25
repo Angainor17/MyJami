@@ -33,14 +33,15 @@ import android.media.AudioAttributes;
 import android.media.RingtoneManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
-import android.support.v4.app.NotificationCompat;
-import android.support.v4.app.NotificationManagerCompat;
-import android.support.v4.content.res.ResourcesCompat;
 import android.text.Html;
 import android.text.Spanned;
 import android.text.format.DateUtils;
 import android.util.SparseArray;
+
+import androidx.annotation.RequiresApi;
+import androidx.core.app.NotificationCompat;
+import androidx.core.app.NotificationManagerCompat;
+import androidx.core.content.res.ResourcesCompat;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -512,7 +513,7 @@ public class NotificationServiceImpl extends NotificationService implements Obse
                                 dataTransferInfo.getAccountId());
                         mHistoryService.addFileTransfer(historyFileTransfer);
 
-                        if (dataTransferInfo.getFlags() == 1){
+                        if (dataTransferInfo.getFlags() == 1) {
                             showFileTransferNotification(transferId, dataTransferInfo.getPeer());
                         }
                     }

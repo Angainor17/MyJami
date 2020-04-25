@@ -111,7 +111,8 @@ public class DaemonService {
     }
 
     private void startRingServicePolling() {
-        mScheduledExecutor.scheduleAtFixedRate(() -> mExecutor.submit(Ringservice::pollEvents), 0, POLLING_TIMEOUT, TimeUnit.MILLISECONDS);
+        //FIXME
+//        mScheduledExecutor.scheduleAtFixedRate(() -> mExecutor.submit(Ringservice::pollEvents), 0, POLLING_TIMEOUT, TimeUnit.MILLISECONDS);
     }
 
     public void stopDaemon() {

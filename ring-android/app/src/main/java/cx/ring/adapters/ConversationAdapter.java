@@ -21,7 +21,7 @@
 package cx.ring.adapters;
 
 import android.content.Context;
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.LayoutInflater;

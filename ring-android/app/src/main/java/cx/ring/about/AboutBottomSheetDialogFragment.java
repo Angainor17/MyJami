@@ -20,9 +20,9 @@
 package cx.ring.about;
 
 import android.app.Dialog;
-import android.support.annotation.NonNull;
 import android.view.View;
 
+import androidx.annotation.NonNull;
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;

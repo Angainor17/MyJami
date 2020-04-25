@@ -169,11 +169,12 @@ public abstract class HardwareService extends Observable {
                 mDeviceRuntimeService.provideDaemonThreadId(),
                 false,
                 () -> {
-                    long frame = RingserviceJNI.obtainFrame(data.length);
-                    if (frame != 0) {
-                        RingserviceJNI.setVideoFrame(data, data.length, frame, width, height, rotation);
-                    }
-                    RingserviceJNI.releaseFrame(frame);
+                    //FIXME
+//                    long frame = RingserviceJNI.obtainFrame(data.length);
+//                    if (frame != 0) {
+//                        RingserviceJNI.setVideoFrame(data, data.length, frame, width, height, rotation);
+//                    }
+//                    RingserviceJNI.releaseFrame(frame);
                     return true;
                 }
         );

@@ -19,7 +19,7 @@
  */
 package cx.ring.tv.model;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import cx.ring.model.CallContact;
 

@@ -21,6 +21,8 @@ package cx.ring.tv.search;
 
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.core.content.ContextCompat;
 import androidx.leanback.app.SearchFragment;
 import androidx.leanback.widget.ArrayObjectAdapter;
 import androidx.leanback.widget.HeaderItem;
@@ -33,7 +35,6 @@ import androidx.leanback.widget.Row;
 import androidx.leanback.widget.RowPresenter;
 import androidx.leanback.widget.SearchEditText;
 
-import android.support.v4.content.ContextCompat;
 import android.view.View;
 
 import butterknife.BindView;
