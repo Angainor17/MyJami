@@ -14,9 +14,10 @@
 package cx.ring.tv.cards;
 
 import android.content.Context;
+import android.view.ViewGroup;
+
 import androidx.leanback.widget.BaseCardView;
 import androidx.leanback.widget.Presenter;
-import android.view.ViewGroup;
 
 /**
  * This abstract, generic class will create and manage the

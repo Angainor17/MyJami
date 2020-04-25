@@ -20,6 +20,8 @@ package cx.ring.tv.about;
 import android.content.res.Resources;
 import android.graphics.BitmapFactory;
 import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.leanback.app.DetailsFragment;
 import androidx.leanback.app.DetailsFragmentBackgroundController;
@@ -30,8 +32,6 @@ import androidx.leanback.widget.FullWidthDetailsOverviewRowPresenter;
 import androidx.leanback.widget.ListRow;
 import androidx.leanback.widget.ListRowPresenter;
 import androidx.leanback.widget.RowPresenter;
-import android.view.View;
-import android.view.ViewGroup;
 
 import cx.ring.R;
 import cx.ring.tv.cards.Card;

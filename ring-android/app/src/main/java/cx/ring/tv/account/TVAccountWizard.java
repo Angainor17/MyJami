@@ -18,8 +18,6 @@
  */
 package cx.ring.tv.account;
 
-import android.app.Activity;
-import android.app.FragmentManager;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -29,7 +27,9 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.leanback.app.GuidedStepSupportFragment;
 
 import java.io.ByteArrayOutputStream;
 
@@ -53,9 +53,7 @@ import ezvcard.property.Photo;
 import ezvcard.property.RawProperty;
 import ezvcard.property.Uid;
 
-public class TVAccountWizard
-        extends BaseActivity<AccountWizardPresenter>
-        implements AccountWizardView {
+public class TVAccountWizard extends BaseActivity<AccountWizardPresenter> implements AccountWizardView {
     public static final String PROFILE_TAG = "Profile";
     static final String TAG = TVAccountWizard.class.getName();
     private TVProfileCreationFragment mProfileFragment = new TVProfileCreationFragment();
@@ -85,9 +83,9 @@ public class TVAccountWizard
         }
 
         if (savedInstanceState == null) {
-            GuidedStepFragment.addAsRoot(this, mHomeFragment, android.R.id.content);
+            GuidedStepSupportFragment.addAsRoot(this, mHomeFragment, android.R.id.content);
         } else {
-            mProfileFragment = (TVProfileCreationFragment) getFragmentManager().getFragment(savedInstanceState, PROFILE_TAG);
+            mProfileFragment = (TVProfileCreationFragment) getSupportFragmentManager().getFragment(savedInstanceState, PROFILE_TAG);
             mFullname = savedInstanceState.getString("mFullname");
             mLinkAccount = savedInstanceState.getBoolean("mLinkAccount");
         }
@@ -99,7 +97,7 @@ public class TVAccountWizard
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
         if (mProfileFragment.isAdded()) {
-            getFragmentManager().putFragment(outState, PROFILE_TAG, mProfileFragment);
+            getSupportFragmentManager().putFragment(outState, PROFILE_TAG, mProfileFragment);
         }
         outState.putString("mFullname", mFullname);
         outState.putBoolean("mLinkAccount", mLinkAccount);
@@ -178,7 +176,7 @@ public class TVAccountWizard
     public void finish(final boolean affinity) {
         runOnUiThread(() -> {
             if (affinity) {
-                FragmentManager fm = getFragmentManager();
+                FragmentManager fm = getSupportFragmentManager();
                 if (fm.getBackStackEntryCount() >= 1) {
                     fm.popBackStack();
                 } else {
@@ -266,7 +264,7 @@ public class TVAccountWizard
                     .setTitle(R.string.account_device_added_title)
                     .setMessage(R.string.account_device_added_message)
                     .setOnDismissListener(dialogInterface -> {
-                        setResult(Activity.RESULT_OK, new Intent());
+                        setResult(AppCompatActivity.RESULT_OK, new Intent());
                         //unlock the screen orientation
                         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_SENSOR);
                         startActivity(new Intent(TVAccountWizard.this, HomeActivity.class));

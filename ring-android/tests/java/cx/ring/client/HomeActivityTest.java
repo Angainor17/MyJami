@@ -17,7 +17,7 @@ import cx.ring.fragments.HomeFragment;
  * -e class org.sflphone.client.HomeActivityTest \
  * org.sflphone.tests/android.test.InstrumentationTestRunner
  */
-public class HomeActivityTest extends ActivityInstrumentationTestCase2<HomeActivity> {
+public class HomeActivityTest extends AppCompatActivityInstrumentationTestCase2<HomeActivity> {
 
     HomeActivity mActivity;
     Solo mSolo;

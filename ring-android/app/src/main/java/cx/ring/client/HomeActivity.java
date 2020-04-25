@@ -19,9 +19,6 @@
  */
 package cx.ring.client;
 
-import android.app.AlertDialog;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
@@ -37,12 +34,16 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import androidx.appcompat.app.ActionBarDrawerToggle;
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.navigation.NavigationView;
@@ -98,7 +99,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
     static final String TAG = HomeActivity.class.getSimpleName();
     private static final String NAVIGATION_TAG = "Navigation";
     private final Handler mHandler = new Handler();
-    protected android.app.Fragment fContent;
+    protected Fragment fContent;
     protected RingNavigationFragment fNavigation;
     protected ConversationFragment fConversation;
     @Inject
@@ -174,7 +175,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
         mToolbarSize = getResources().getDimension(R.dimen.abc_action_bar_default_height_material);
 
         if (savedInstanceState != null) {
-            fNavigation = (RingNavigationFragment) getFragmentManager().findFragmentByTag(NAVIGATION_TAG);
+            fNavigation = (RingNavigationFragment) getSupportFragmentManager().findFragmentByTag(NAVIGATION_TAG);
         }
         setContentView(R.layout.activity_home);
 
@@ -222,7 +223,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
 
         if (fNavigation == null && savedInstanceState == null) {
             fNavigation = new RingNavigationFragment();
-            getFragmentManager().beginTransaction()
+            getSupportFragmentManager().beginTransaction()
                     .replace(R.id.navigation_container, fNavigation, NAVIGATION_TAG)
                     .commit();
         }
@@ -240,7 +241,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
 
         setVideoEnabledFromPermission();
 
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         fContent = fragmentManager.findFragmentById(R.id.main_frame);
         if (fNavigation != null) {
             onNavigationViewReady();
@@ -275,7 +276,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
             return;
         }
 
-        if (!getFragmentManager().findFragmentByTag(HOME_TAG).isVisible()) {
+        if (!getSupportFragmentManager().findFragmentByTag(HOME_TAG).isVisible()) {
             fNavigation.selectSection(RingNavigationFragment.Section.HOME);
             onNavigationSectionSelected(RingNavigationFragment.Section.HOME);
         }
@@ -375,7 +376,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
         fConversation = new ConversationFragment();
         fConversation.setArguments(bundle);
 
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .replace(R.id.conversation_container, fConversation, ConversationFragment.class.getName())
                 .commit();
     }
@@ -391,7 +392,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
         fContent = new ContactRequestsFragment();
         fContent.setArguments(bundle);
         fNavigation.selectSection(RingNavigationFragment.Section.CONTACT_REQUESTS);
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .replace(R.id.main_frame, fContent, CONTACT_REQUESTS_TAG)
                 .addToBackStack(CONTACT_REQUESTS_TAG).commit();
@@ -409,7 +410,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
             mNavigationDrawer.closeDrawer(GravityCompat.START);
             return;
         }
-        if (getFragmentManager().getBackStackEntryCount() > 1) {
+        if (getSupportFragmentManager().getBackStackEntryCount() > 1) {
             popCustomBackStack();
             fNavigation.selectSection(RingNavigationFragment.Section.HOME);
             return;
@@ -419,7 +420,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
     }
 
     private void popCustomBackStack() {
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentManager.BackStackEntry entry = fragmentManager.getBackStackEntryAt(0);
         fContent = fragmentManager.findFragmentByTag(entry.getName());
         for (int i = 0; i < fragmentManager.getBackStackEntryCount() - 1; ++i) {
@@ -473,12 +474,12 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
                 if (fContent instanceof SmartListFragment) {
                     break;
                 }
-                if (getFragmentManager().getBackStackEntryCount() == 1) {
+                if (getSupportFragmentManager().getBackStackEntryCount() == 1) {
                     break;
                 }
 
                 popCustomBackStack();
-                fContent = getFragmentManager().findFragmentByTag(HOME_TAG);
+                fContent = getSupportFragmentManager().findFragmentByTag(HOME_TAG);
                 break;
             case CONTACT_REQUESTS:
                 Bundle bundle = new Bundle();
@@ -489,7 +490,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
                 }
                 fContent = new ContactRequestsFragment();
                 fContent.setArguments(bundle);
-                getFragmentManager().beginTransaction()
+                getSupportFragmentManager().beginTransaction()
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                         .replace(R.id.main_frame, fContent, CONTACT_REQUESTS_TAG)
                         .addToBackStack(CONTACT_REQUESTS_TAG).commit();
@@ -499,7 +500,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
                     break;
                 }
                 fContent = new AccountsManagementFragment();
-                getFragmentManager().beginTransaction()
+                getSupportFragmentManager().beginTransaction()
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                         .replace(R.id.main_frame, fContent, ACCOUNTS_TAG)
                         .addToBackStack(ACCOUNTS_TAG).commit();
@@ -509,7 +510,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
                     break;
                 }
                 fContent = new AboutFragment();
-                getFragmentManager().beginTransaction()
+                getSupportFragmentManager().beginTransaction()
                         .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                         .replace(R.id.main_frame, fContent, ABOUT_TAG)
                         .addToBackStack(ABOUT_TAG).commit();
@@ -557,7 +558,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
         }
         fContent = new ShareFragment();
 
-        getFragmentManager().beginTransaction()
+        getSupportFragmentManager().beginTransaction()
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .replace(R.id.main_frame, fContent, SHARE_TAG)
                 .addToBackStack(SHARE_TAG).commit();
@@ -571,7 +572,7 @@ public class HomeActivity extends AppCompatActivity implements RingNavigationFra
             return;
         }
         fContent = new SettingsFragment();
-        getFragmentManager()
+        getSupportFragmentManager()
                 .beginTransaction()
                 .setTransition(FragmentTransaction.TRANSIT_FRAGMENT_FADE)
                 .replace(R.id.main_frame, fContent, SETTINGS_TAG)

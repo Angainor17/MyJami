@@ -15,10 +15,15 @@ package cx.ring.tv.main;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.DisplayMetrics;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.core.app.ActivityOptionsCompat;
 import androidx.leanback.app.BackgroundManager;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.ArrayObjectAdapter;
 import androidx.leanback.widget.HeaderItem;
 import androidx.leanback.widget.ImageCardView;
@@ -27,11 +32,6 @@ import androidx.leanback.widget.Presenter;
 import androidx.leanback.widget.PresenterSelector;
 import androidx.leanback.widget.Row;
 import androidx.leanback.widget.RowPresenter;
-import android.util.DisplayMetrics;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -290,8 +290,8 @@ public class MainFragment extends BaseBrowseFragment<MainPresenter> implements M
 
     @Override
     public void showExportDialog(String pAccountID) {
-        GuidedStepFragment wizard = TVAccountExport.createInstance(pAccountID);
-        GuidedStepFragment.add(getFragmentManager(), wizard, R.id.main_browse_fragment);
+        GuidedStepSupportFragment wizard = TVAccountExport.createInstance(pAccountID);
+        GuidedStepSupportFragment.add(getFragmentManager(), wizard, R.id.main_browse_fragment);
     }
 
     @Override

@@ -29,11 +29,12 @@ import android.media.AudioDeviceInfo;
 import android.media.AudioManager;
 import android.media.MediaRecorder;
 import android.os.Build;
-import androidx.annotation.Nullable;
 import android.util.LongSparseArray;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.WindowManager;
+
+import androidx.annotation.Nullable;
 
 import java.io.File;
 import java.io.IOException;
@@ -396,7 +397,7 @@ public class HardwareServiceImpl extends HardwareService implements AudioManager
         sizes.add(p.size.y);
         sizes.add(p.size.x);
 
-        for (int fps[] : param.getSupportedPreviewFpsRange()) {
+        for (int[] fps : param.getSupportedPreviewFpsRange()) {
             int rate = (fps[Camera.Parameters.PREVIEW_FPS_MIN_INDEX] + fps[Camera.Parameters.PREVIEW_FPS_MAX_INDEX]) / 2;
             rates.add(rate);
         }
@@ -670,7 +671,7 @@ public class HardwareServiceImpl extends HardwareService implements AudioManager
         for (int i = 0; i < Camera.getNumberOfCameras(); i++) {
             if (mNativeParams.get(i) != null) {
                 camSettings.put(Integer.toString(i), mNativeParams.get(i).toMap(mContext.getResources().getConfiguration().orientation));
-                Log.w(TAG, "setPreviewSettings camera:" + Integer.toString(i));
+                Log.w(TAG, "setPreviewSettings camera:" + i);
             }
         }
         this.setPreviewSettings(camSettings);
@@ -699,7 +700,7 @@ public class HardwareServiceImpl extends HardwareService implements AudioManager
             result = (info.orientation - rotation + 360) % 360;
         }
         camera.setDisplayOrientation(result);
-        Log.w(TAG, "setCameraDisplayOrientation " + Integer.toString(rotation) + " " + Integer.toString(result));
+        Log.w(TAG, "setCameraDisplayOrientation " + rotation + " " + result);
     }
 
     private int rotationToDegrees(int rotation) {
@@ -751,7 +752,7 @@ public class HardwareServiceImpl extends HardwareService implements AudioManager
         public StringMap toMap(int orientation) {
             StringMap map = new StringMap();
             boolean rotated = (size.x > size.y) == (orientation == Configuration.ORIENTATION_PORTRAIT);
-            map.set("size", Integer.toString(rotated ? size.y : size.x) + "x" + Integer.toString(rotated ? size.x : size.y));
+            map.set("size", (rotated ? size.y : size.x) + "x" + (rotated ? size.x : size.y));
             map.set("rate", Long.toString(rate));
             return map;
         }

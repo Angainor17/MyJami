@@ -19,13 +19,14 @@
  */
 package cx.ring.tv.main;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.provider.MediaStore;
+
 import androidx.annotation.NonNull;
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.leanback.app.GuidedStepSupportFragment;
 
 import javax.inject.Inject;
 
@@ -36,7 +37,7 @@ import cx.ring.services.DeviceRuntimeService;
 import cx.ring.services.HardwareService;
 import cx.ring.services.PreferencesService;
 
-public class HomeActivity extends Activity {
+public class HomeActivity extends AppCompatActivity {
     public static final int REQUEST_CODE_PHOTO = 5;
     public static final int REQUEST_CODE_GALLERY = 6;
     public static final int REQUEST_PERMISSION_CAMERA = 113;
@@ -67,7 +68,7 @@ public class HomeActivity extends Activity {
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode) {
             case REQUEST_PERMISSION_READ_STORAGE:
                 if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
@@ -90,8 +91,8 @@ public class HomeActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        if (GuidedStepFragment.getCurrentGuidedStepFragment(getFragmentManager()) != null) {
-            getFragmentManager().popBackStack();
+        if (GuidedStepSupportFragment.getCurrentGuidedStepSupportFragment(getSupportFragmentManager()) != null) {
+            getSupportFragmentManager().popBackStack();
         } else {
             super.onBackPressed();
         }

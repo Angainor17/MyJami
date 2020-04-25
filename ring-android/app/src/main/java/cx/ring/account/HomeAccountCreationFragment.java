@@ -19,10 +19,11 @@
  */
 package cx.ring.account;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.fragment.app.Fragment;
 
 import butterknife.BindView;
 import butterknife.OnClick;

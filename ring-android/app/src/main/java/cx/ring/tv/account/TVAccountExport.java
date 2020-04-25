@@ -23,9 +23,6 @@ import android.app.ProgressDialog;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.leanback.widget.GuidanceStylist;
-import androidx.leanback.widget.GuidedAction;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -33,6 +30,10 @@ import android.text.style.AlignmentSpan;
 import android.text.style.RelativeSizeSpan;
 import android.text.style.StyleSpan;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.leanback.widget.GuidanceStylist;
+import androidx.leanback.widget.GuidedAction;
 
 import java.util.List;
 import java.util.Map;

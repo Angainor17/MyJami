@@ -28,13 +28,13 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import androidx.annotation.NonNull;
+import android.view.View;
 
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
-import androidx.core.app.ActivityCompat;
-import android.view.View;
 
 import java.util.List;
 
@@ -63,7 +63,7 @@ public class TVProfileCreationFragment extends RingGuidedStepFragment<ProfileCre
 
     private Bitmap mSourcePhoto;
 
-    public static GuidedStepFragment newInstance(RingAccountViewModelImpl pRingAccountViewModel) {
+    public static GuidedStepSupportFragment newInstance(RingAccountViewModelImpl pRingAccountViewModel) {
         Bundle bundle = new Bundle();
         bundle.putParcelable(RingAccountCreationFragment.KEY_RING_ACCOUNT, pRingAccountViewModel);
         TVProfileCreationFragment fragment = new TVProfileCreationFragment();
@@ -183,13 +183,13 @@ public class TVProfileCreationFragment extends RingGuidedStepFragment<ProfileCre
 
     @Override
     public void goToNext(RingAccountViewModel ringAccountViewModel) {
-        GuidedStepFragment next;
+        GuidedStepSupportFragment next;
         if (ringAccountViewModel.isLink()) {
             next = TVRingLinkAccountFragment.newInstance((RingAccountViewModelImpl) ringAccountViewModel);
         } else {
             next = TVRingAccountCreationFragment.newInstance((RingAccountViewModelImpl) ringAccountViewModel);
         }
-        GuidedStepFragment.add(getFragmentManager(), next);
+        GuidedStepSupportFragment.add(getFragmentManager(), next);
     }
 
     @Override

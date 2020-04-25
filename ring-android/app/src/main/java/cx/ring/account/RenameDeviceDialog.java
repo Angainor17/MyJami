@@ -18,9 +18,7 @@
  */
 package cx.ring.account;
 
-import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -28,6 +26,9 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
 
 import com.google.android.material.textfield.TextInputLayout;
 

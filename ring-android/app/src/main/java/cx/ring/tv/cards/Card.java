@@ -17,6 +17,7 @@
 package cx.ring.tv.cards;
 
 import android.graphics.Color;
+
 import androidx.annotation.DrawableRes;
 
 /**

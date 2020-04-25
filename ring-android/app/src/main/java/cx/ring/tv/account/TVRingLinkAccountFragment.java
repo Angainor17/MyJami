@@ -19,10 +19,11 @@ package cx.ring.tv.account;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.view.View;
+
 import androidx.annotation.NonNull;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
-import android.view.View;
 
 import java.util.List;
 

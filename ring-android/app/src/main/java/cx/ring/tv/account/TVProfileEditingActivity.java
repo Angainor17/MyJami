@@ -18,17 +18,18 @@
  */
 package cx.ring.tv.account;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import cx.ring.R;
 
 import static cx.ring.tv.account.TVProfileEditingFragment.REQUEST_CODE_GALLERY;
 import static cx.ring.tv.account.TVProfileEditingFragment.REQUEST_CODE_PHOTO;
 
-public class TVProfileEditingActivity extends Activity {
+public class TVProfileEditingActivity extends AppCompatActivity {
 
     public static final String TAG = TVProfileEditingActivity.class.getSimpleName();
     private static final String TV_PROFILE_EDITING_TAG = "tv_profile_editing";
@@ -40,7 +41,7 @@ public class TVProfileEditingActivity extends Activity {
         setContentView(R.layout.tv_activity_profile_editing);
 
         if (savedInstanceState != null) {
-            fTvProfileEditing = (TVProfileEditingFragment) getFragmentManager().findFragmentByTag(TV_PROFILE_EDITING_TAG);
+            fTvProfileEditing = (TVProfileEditingFragment) getSupportFragmentManager().findFragmentByTag(TV_PROFILE_EDITING_TAG);
         }
     }
 

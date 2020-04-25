@@ -20,12 +20,13 @@
 
 package cx.ring.tv.account;
 
-import android.app.Activity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import cx.ring.R;
 
-public class TVSettingsActivity extends Activity {
+public class TVSettingsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -22,8 +22,6 @@ package cx.ring.account;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -32,6 +30,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Toast;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
 
 import java.io.ByteArrayOutputStream;
 
@@ -88,7 +89,7 @@ public class AccountWizardActivity extends BaseActivity<AccountWizardPresenter> 
                 args.putString(AccountMigrationFragment.ACCOUNT_ID, getIntent().getData().getLastPathSegment());
                 Fragment fragment = new AccountMigrationFragment();
                 fragment.setArguments(args);
-                FragmentManager fragmentManager = getFragmentManager();
+                FragmentManager fragmentManager = getSupportFragmentManager();
                 fragmentManager
                         .beginTransaction()
                         .replace(R.id.wizard_container, fragment)
@@ -151,7 +152,7 @@ public class AccountWizardActivity extends BaseActivity<AccountWizardPresenter> 
     @Override
     public void goToHomeCreation() {
         Fragment fragment = new HomeAccountCreationFragment();
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.wizard_container, fragment, HomeAccountCreationFragment.TAG)
                 .commit();
@@ -160,7 +161,7 @@ public class AccountWizardActivity extends BaseActivity<AccountWizardPresenter> 
     @Override
     public void goToSipCreation() {
         Fragment fragment = new SIPAccountCreationFragment();
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction()
                 .replace(R.id.wizard_container, fragment, SIPAccountCreationFragment.TAG)
                 .commit();

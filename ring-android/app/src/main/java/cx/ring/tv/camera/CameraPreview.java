@@ -59,7 +59,7 @@ public class CameraPreview extends SurfaceView implements
 
     @Override
     public void surfaceChanged(SurfaceHolder surfaceHolder, int format,
-            int width, int height) {
+                               int width, int height) {
         // start preview with new settings
         try {
             mCamera.setPreviewDisplay(surfaceHolder);

@@ -24,9 +24,10 @@ import android.content.ContentUris;
 import android.content.Context;
 import android.database.Cursor;
 import android.provider.ContactsContract;
-import androidx.annotation.NonNull;
 import android.util.Log;
 import android.util.LongSparseArray;
+
+import androidx.annotation.NonNull;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;

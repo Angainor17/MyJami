@@ -18,12 +18,13 @@
  */
 package cx.ring.tv.about;
 
-import android.app.Activity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import cx.ring.R;
 
-public class AboutActivity extends Activity {
+public class AboutActivity extends AppCompatActivity {
 
     public static final String TAG = AboutActivity.class.getSimpleName();
 

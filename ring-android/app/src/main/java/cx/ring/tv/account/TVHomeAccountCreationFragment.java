@@ -19,12 +19,12 @@ package cx.ring.tv.account;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
+import android.view.View;
 
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.annotation.NonNull;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidanceStylist;
 import androidx.leanback.widget.GuidedAction;
-import android.view.View;
 
 import java.util.List;
 
@@ -52,14 +52,14 @@ public class TVHomeAccountCreationFragment
     public void goToAccountCreation() {
         RingAccountViewModelImpl ringAccountViewModel = new RingAccountViewModelImpl();
         ringAccountViewModel.setLink(false);
-        GuidedStepFragment.add(getFragmentManager(), TVProfileCreationFragment.newInstance(ringAccountViewModel));
+        GuidedStepSupportFragment.add(getFragmentManager(), TVProfileCreationFragment.newInstance(ringAccountViewModel));
     }
 
     @Override
     public void goToAccountLink() {
         RingAccountViewModelImpl ringAccountViewModel = new RingAccountViewModelImpl();
         ringAccountViewModel.setLink(true);
-        GuidedStepFragment.add(getFragmentManager(), TVProfileCreationFragment.newInstance(ringAccountViewModel));
+        GuidedStepSupportFragment.add(getFragmentManager(), TVProfileCreationFragment.newInstance(ringAccountViewModel));
     }
 
     @Override
@@ -81,10 +81,10 @@ public class TVHomeAccountCreationFragment
     public void onCreateActions(@NonNull List<GuidedAction> actions, Bundle savedInstanceState) {
         addAction(actions, LINK_ACCOUNT,
                 getString(R.string.account_link_button),
-                "",true);
+                "", true);
         addAction(actions, CREATE_ACCOUNT,
                 getString(R.string.account_create_title),
-                "",true);
+                "", true);
     }
 
     @Override

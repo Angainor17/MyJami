@@ -27,11 +27,10 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Build;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
 import androidx.core.app.ActivityCompat;
-import android.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;

@@ -18,11 +18,12 @@
 package cx.ring.tv.about;
 
 import android.content.Context;
-import androidx.leanback.widget.Presenter;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import androidx.leanback.widget.Presenter;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

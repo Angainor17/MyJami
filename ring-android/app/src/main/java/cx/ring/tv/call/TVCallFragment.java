@@ -25,8 +25,6 @@ import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.PowerManager;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import android.util.DisplayMetrics;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
@@ -38,6 +36,9 @@ import android.view.animation.AnimationSet;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 import com.skyfishjy.library.RippleBackground;

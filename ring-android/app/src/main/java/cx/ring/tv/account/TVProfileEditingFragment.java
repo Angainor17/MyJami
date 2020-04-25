@@ -28,14 +28,14 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import androidx.annotation.NonNull;
-
-import androidx.leanback.app.GuidedStepFragment;
-import androidx.leanback.widget.GuidanceStylist;
-import androidx.leanback.widget.GuidedAction;
-import androidx.core.app.ActivityCompat;
 import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.NonNull;
+import androidx.core.app.ActivityCompat;
+import androidx.leanback.app.GuidedStepSupportFragment;
+import androidx.leanback.widget.GuidanceStylist;
+import androidx.leanback.widget.GuidedAction;
 
 import java.io.ByteArrayOutputStream;
 import java.util.List;
@@ -67,7 +67,7 @@ public class TVProfileEditingFragment extends RingGuidedStepFragment<RingNavigat
 
     private List<GuidedAction> actions;
 
-    public static GuidedStepFragment newInstance() {
+    public static GuidedStepSupportFragment newInstance() {
         return new TVProfileEditingFragment();
     }
 

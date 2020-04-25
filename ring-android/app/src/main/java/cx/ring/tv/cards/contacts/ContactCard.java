@@ -30,7 +30,7 @@ public class ContactCard extends Card {
     private byte[] mPhoto = null;
 
     public ContactCard(CallContact pCallContact, Type type) {
-        mModel =  new TVListViewModel(pCallContact);
+        mModel = new TVListViewModel(pCallContact);
         setId(pCallContact.getId());
         setTitle(pCallContact.getDisplayName());
         setDescription(pCallContact.getRingUsername());

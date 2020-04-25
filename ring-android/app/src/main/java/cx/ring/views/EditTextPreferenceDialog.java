@@ -21,9 +21,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 
-import androidx.preference.EditTextPreferenceDialogFragment;
+import androidx.preference.EditTextPreferenceDialogFragmentCompat;
 
-public class EditTextPreferenceDialog extends EditTextPreferenceDialogFragment {
+public class EditTextPreferenceDialog extends EditTextPreferenceDialogFragmentCompat {
     private static final String ARG_TYPE = "inputType";
 
     public static EditTextPreferenceDialog newInstance(String key, int type) {

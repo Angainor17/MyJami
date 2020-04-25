@@ -19,6 +19,7 @@
  */
 package cx.ring.fragments;
 
+import android.annotation.SuppressLint;
 import android.app.PendingIntent;
 import android.app.PictureInPictureParams;
 import android.app.RemoteAction;
@@ -33,10 +34,7 @@ import android.hardware.display.DisplayManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.PowerManager;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import android.util.DisplayMetrics;
-import android.util.Log;
 import android.util.Rational;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -50,6 +48,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.bumptech.glide.Glide;
 import com.skyfishjy.library.RippleBackground;
@@ -247,6 +248,7 @@ public class CallFragment extends BaseFragment<CallPresenter> implements CallVie
         component.inject(this);
     }
 
+    @SuppressLint("InvalidWakeLockTag")
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
         setHasOptionsMenu(true);
@@ -392,12 +394,12 @@ public class CallFragment extends BaseFragment<CallPresenter> implements CallVie
         return true;
     }
 
+//    @Override
+//    public void onPictureInPictureModeChanged(boolean isInPictureInPictureMode, Configuration newConfig) {
+//        presenter.pipModeChanged(isInPictureInPictureMode); //FIXME
+//    }
 
-    @Override
-    public void onPictureInPictureModeChanged(boolean isInPictureInPictureMode, Configuration newConfig) {
-        presenter.pipModeChanged(isInPictureInPictureMode);
-    }
-
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     public void blockScreenRotation() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR2) {
@@ -457,6 +459,7 @@ public class CallFragment extends BaseFragment<CallPresenter> implements CallVie
         getActivity().invalidateOptionsMenu();
     }
 
+    @SuppressLint("SourceLockedOrientationActivity")
     @Override
     public void changeScreenRotation() {
         if (mCurrentOrientation == Configuration.ORIENTATION_LANDSCAPE) {

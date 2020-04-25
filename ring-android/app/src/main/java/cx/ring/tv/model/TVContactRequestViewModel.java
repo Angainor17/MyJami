@@ -113,7 +113,7 @@ public class TVContactRequestViewModel implements Parcelable {
         dest.writeString(displayName);
         dest.writeString(userName);
         dest.writeString(message);
-        if(photo != null) {
+        if (photo != null) {
             dest.writeInt(photo.length);
             dest.writeByteArray(photo);
         }

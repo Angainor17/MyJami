@@ -21,7 +21,6 @@ package cx.ring.tv.contactrequest;
 
 import android.os.Bundle;
 
-
 import androidx.fragment.app.FragmentActivity;
 
 import cx.ring.R;

@@ -18,10 +18,8 @@
  */
 package cx.ring.account;
 
-import android.app.Activity;
-import android.app.AlertDialog;
 import android.app.Dialog;
-import android.app.DialogFragment;
+import android.content.Context;
 import android.os.Bundle;
 import android.text.InputFilter;
 import android.text.TextWatcher;
@@ -31,6 +29,10 @@ import android.view.inputmethod.EditorInfo;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.fragment.app.DialogFragment;
 
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -185,8 +187,8 @@ public class RegisterNameDialog extends DialogFragment implements Observer<Servi
     }
 
     @Override
-    public void onAttach(Activity activity) {
-        super.onAttach(activity);
+    public void onAttach(@NonNull Context context) {
+        super.onAttach(context);
         if (mUsernameTxt != null) {
             mUsernameTxt.addTextChangedListener(mUsernameTextWatcher);
         }

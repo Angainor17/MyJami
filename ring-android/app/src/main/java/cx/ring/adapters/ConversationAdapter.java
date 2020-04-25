@@ -21,13 +21,13 @@
 package cx.ring.adapters;
 
 import android.content.Context;
-import androidx.annotation.Nullable;
 import android.text.format.DateUtils;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;

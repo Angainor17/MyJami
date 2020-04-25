@@ -28,7 +28,7 @@ import android.widget.Toast;
 import androidx.annotation.IdRes;
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import javax.inject.Inject;
 

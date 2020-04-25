@@ -177,7 +177,7 @@ public class SettingsFragment extends BaseFragment<SettingsPresenter> implements
 
     @Override
     public void onRequestPermissionsResult(int requestCode,
-                                           @NonNull String permissions[],
+                                           @NonNull String[] permissions,
                                            @NonNull int[] grantResults) {
         super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         for (int i = 0, n = permissions.length; i < n; ++i) {

@@ -143,7 +143,7 @@ public class AboutFragment extends BaseFragment<AboutPresenter> implements About
     @OnClick(R.id.credits)
     public void creditsClicked() {
         BottomSheetDialogFragment dialog = new AboutBottomSheetDialogFragment();
-        dialog.show(((AppCompatActivity) getActivity()).getSupportFragmentManager(), dialog.getTag());
+        dialog.show(getActivity().getSupportFragmentManager(), dialog.getTag());
     }
 
     private void launchSystemIntent(Intent intentToLaunch,

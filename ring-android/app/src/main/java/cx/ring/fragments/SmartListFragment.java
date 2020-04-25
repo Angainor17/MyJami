@@ -26,7 +26,6 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import androidx.annotation.Nullable;
 import android.text.InputType;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -40,6 +39,7 @@ import android.widget.ProgressBar;
 import android.widget.SearchView;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.widget.Toolbar;
 import androidx.recyclerview.widget.LinearLayoutManager;

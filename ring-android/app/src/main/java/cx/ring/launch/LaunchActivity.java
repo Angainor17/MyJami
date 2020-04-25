@@ -24,9 +24,10 @@ import android.app.AlertDialog;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
+import android.util.Log;
+
 import androidx.annotation.NonNull;
 import androidx.core.app.ActivityCompat;
-import android.util.Log;
 
 import java.util.ArrayList;
 
@@ -81,7 +82,7 @@ public class LaunchActivity extends BaseActivity<LaunchPresenter> implements Lau
     }
 
     @Override
-    public void onRequestPermissionsResult(int requestCode, @NonNull String permissions[], @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
         switch (requestCode) {
             case RingApplication.PERMISSIONS_REQUEST: {
                 if (grantResults.length == 0) {

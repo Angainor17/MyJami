@@ -20,17 +20,18 @@
 
 package cx.ring.tv.camera;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.hardware.Camera;
 import android.os.Bundle;
 import android.widget.FrameLayout;
 
+import androidx.appcompat.app.AppCompatActivity;
+
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import cx.ring.R;
 
-public class CustomCameraActivity extends Activity {
+public class CustomCameraActivity extends AppCompatActivity {
     int cameraFront;
     int cameraBack;
     int currentCamera;
@@ -50,7 +51,7 @@ public class CustomCameraActivity extends Activity {
     private CameraPreview mCameraPreview;
 
     @OnClick(R.id.button_capture)
-    public void takePicture(){
+    public void takePicture() {
         mCamera.takePicture(null, null, mPicture);
     }
 

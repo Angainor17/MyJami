@@ -24,20 +24,19 @@ package cx.ring.account;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.annotation.StringRes;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.FrameLayout;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.StringRes;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-import android.app.Fragment;
+import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.fragment.app.FragmentTransaction;
@@ -295,7 +294,7 @@ public class AccountEditionActivity extends AppCompatActivity implements Account
         }
 
         @Override
-        public Fragment getItem(int position) {
+        public androidx.fragment.app.Fragment getItem(int position) {
             return isRing ? getRingPanel(position) : getSIPPanel(position);
         }
 

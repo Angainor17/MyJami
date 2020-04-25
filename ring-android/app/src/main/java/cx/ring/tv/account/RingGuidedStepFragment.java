@@ -22,7 +22,7 @@ import android.os.Bundle;
 import android.text.InputType;
 import android.view.View;
 
-import androidx.leanback.app.GuidedStepFragment;
+import androidx.leanback.app.GuidedStepSupportFragment;
 import androidx.leanback.widget.GuidedAction;
 
 import java.util.List;
@@ -31,7 +31,7 @@ import javax.inject.Inject;
 
 import cx.ring.mvp.RootPresenter;
 
-public abstract class RingGuidedStepFragment<T extends RootPresenter> extends GuidedStepFragment {
+public abstract class RingGuidedStepFragment<T extends RootPresenter> extends GuidedStepSupportFragment {
 
     protected static final String TAG = RingGuidedStepFragment.class.getSimpleName();
 

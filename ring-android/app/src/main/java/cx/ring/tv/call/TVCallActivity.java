@@ -18,10 +18,6 @@
  */
 package cx.ring.tv.call;
 
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -29,13 +25,18 @@ import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.WindowManager;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+
 import cx.ring.R;
 import cx.ring.application.RingApplication;
 import cx.ring.call.CallView;
 import cx.ring.services.NotificationService;
 import cx.ring.utils.Log;
 
-public class TVCallActivity extends Activity {
+public class TVCallActivity extends AppCompatActivity {
 
     static final String TAG = TVCallActivity.class.getSimpleName();
     private static final String CALL_FRAGMENT_TAG = "CALL_FRAGMENT_TAG";
@@ -50,7 +51,7 @@ public class TVCallActivity extends Activity {
             setTurnScreenOn(true);
             setShowWhenLocked(true);
         } else {
-            getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED|
+            getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WHEN_LOCKED |
                     WindowManager.LayoutParams.FLAG_TURN_SCREEN_ON);
         }
         setContentView(R.layout.tv_activity_call);
@@ -63,7 +64,7 @@ public class TVCallActivity extends Activity {
         String accountId = getIntent().getStringExtra("account");
         String ringId = getIntent().getStringExtra("ringId");
 
-        FragmentManager fragmentManager = getFragmentManager();
+        FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (!TextUtils.isEmpty(ringId)) {
@@ -87,8 +88,8 @@ public class TVCallActivity extends Activity {
 
 
     @Override
-    public void onUserLeaveHint () {
-        Fragment fragment = getFragmentManager().findFragmentByTag(CALL_FRAGMENT_TAG);
+    public void onUserLeaveHint() {
+        Fragment fragment = getSupportFragmentManager().findFragmentByTag(CALL_FRAGMENT_TAG);
         if (fragment instanceof CallView) {
             CallView callFragment = (CallView) fragment;
             callFragment.onUserLeave();

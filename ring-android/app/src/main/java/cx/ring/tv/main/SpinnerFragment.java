@@ -13,8 +13,6 @@ package cx.ring.tv.main;
  * the License.
  */
 
-
-import android.app.Fragment;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -23,6 +21,8 @@ import android.view.ViewGroup;
 import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
+import androidx.fragment.app.Fragment;
+
 /**
  * SpinnerFragment shows spinning progressbar to notify user that
  * application is processing something (while downloading, or preparing sth etc.)
@@ -30,9 +30,9 @@ import android.widget.ProgressBar;
  * Example of usage in AsyncTask
  * + Start showing: OnPreExecute
  * mSpinnerFragment = new SpinnerFragment();
- * getFragmentManager().beginTransaction().add(R.id.some_view_group, mSpinnerFragment).commit();
+ * getSupportFragmentManager().beginTransaction().add(R.id.some_view_group, mSpinnerFragment).commit();
  * + Stop showing: OnPostExecute
- * getFragmentManager().beginTransaction().remove(mSpinnerFragment).commit();
+ * getSupportFragmentManager().beginTransaction().remove(mSpinnerFragment).commit();
  */
 public class SpinnerFragment extends Fragment {
 

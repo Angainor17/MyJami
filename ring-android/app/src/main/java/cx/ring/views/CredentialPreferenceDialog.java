@@ -18,21 +18,21 @@
  */
 package cx.ring.views;
 
-import android.app.AlertDialog;
 import android.content.Context;
 import android.os.Bundle;
-import androidx.annotation.NonNull;
 import android.util.Pair;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
 
-import androidx.preference.PreferenceDialogFragment;
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AlertDialog;
+import androidx.preference.PreferenceDialogFragmentCompat;
 
 import cx.ring.R;
 import cx.ring.model.AccountCredentials;
 
-public class CredentialPreferenceDialog extends PreferenceDialogFragment {
+public class CredentialPreferenceDialog extends PreferenceDialogFragmentCompat {
     private static final String SAVE_STATE_TEXT = "CredentialPreferenceDialog.creds";
     private EditText mUsernameField;
     private EditText mPasswordField;

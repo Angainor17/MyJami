@@ -19,12 +19,13 @@
  */
 package cx.ring.tv.search;
 
-import android.app.Activity;
 import android.os.Bundle;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import cx.ring.R;
 
-public class SearchActivity extends Activity {
+public class SearchActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

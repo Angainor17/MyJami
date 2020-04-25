@@ -122,7 +122,7 @@ public class DatabaseHelper extends OrmLiteSqliteOpenHelper {
      *
      * @param fromDatabaseVersion the old version of the database
      * @param db                  the SQLiteDatabase to work with
-     * @throws SQLiteException    database has failed to update to the last version
+     * @throws SQLiteException database has failed to update to the last version
      */
     private void updateDatabase(int fromDatabaseVersion, SQLiteDatabase db) throws SQLiteException {
         try {

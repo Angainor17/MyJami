@@ -19,17 +19,16 @@
  */
 package cx.ring.tv.account;
 
-import android.app.Fragment;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
+import androidx.fragment.app.Fragment;
 import androidx.leanback.preference.LeanbackSettingsFragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceFragment;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.SwitchPreference;
-
 
 import cx.ring.R;
 import cx.ring.application.RingApplication;
