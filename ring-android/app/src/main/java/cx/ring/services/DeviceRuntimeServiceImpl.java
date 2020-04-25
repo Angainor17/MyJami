@@ -62,7 +62,7 @@ public class DeviceRuntimeServiceImpl extends DeviceRuntimeService {
         Future<Boolean> result = mExecutor.submit(() -> {
             try {
                 mDaemonThreadId = Thread.currentThread().getId();
-                System.loadLibrary("ring");
+                System.loadLibrary("ring");//FIXME
                 return true;
             } catch (Exception e) {
                 Log.e(TAG, "Could not load Ring library", e);

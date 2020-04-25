@@ -11,17 +11,19 @@ android {
         vectorDrawables.useSupportLibrary = true
     }
 
+
     externalNativeBuild {
         cmake {
-//            version "3.6.0"
+            version "3.10.2"
+            path "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\CMakeLists.txt"
+
         }
     }
 
     sourceSets {
         main {
 //            aidl.srcDirs = ['src/main/java']
-//            jniLibs.srcDir 'src/libringclient/cpp/'
-            jniLibs.srcDir 'src/main/cpp'
+            jniLibs.srcDir 'src/main/cpp/daemon/bin/jni'
             jni.srcDirs = []
         }
     }

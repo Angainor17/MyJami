@@ -9,14 +9,10 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 29
+        versionCode 2
+        multiDexEnabled true
+        versionName "1.0"
         vectorDrawables.useSupportLibrary = true
-    }
-
-    externalNativeBuild {
-//        cmake {
-//            version "3.10.2"
-//            path "C:\\Users\\angai\\AndroidStudioProjects\\ring-project\\client-android\\ring-android\\app\\src\\main\\cpp\\daemon\\CMakeLists.txt"
-//        }
     }
 
     sourceSets {
@@ -28,6 +24,7 @@ android {
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -78,7 +75,7 @@ dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
     implementation project(':libringclient')
 
-
+    implementation "androidx.multidex:multidex:2.0.1"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
