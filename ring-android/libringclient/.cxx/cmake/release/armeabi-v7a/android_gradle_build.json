@@ -32,10 +32,7 @@
   "buildTargetsCommand": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\release\\armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {},
   "toolchains": {
-    "457053432": {
-      "cCompilerExecutable": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
-      "cppCompilerExecutable": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
-    }
+    "0": {}
   },
   "cFileExtensions": [],
   "cppFileExtensions": []
