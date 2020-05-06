@@ -1,0 +1,38 @@
+{
+    "name": "pjproject",
+    "version": "3e7b75cb2e482baee58c1991bd2fa4fb06774e0d",
+    "url": "https://github.com/pjsip/pjproject/archive/__VERSION__.tar.gz",
+    "deps": ["gnutls"],
+    "patches": [
+        "0001-rfc6544.patch",
+        "0002-rfc2466.patch",
+        "0003-add-tcp-keep-alive.patch",
+        "0004-multiple_listeners.patch",
+        "0005-fix_ebusy_turn.patch",
+        "0006-ignore_ipv6_on_transport_check.patch",
+        "0007-pj_ice_sess.patch",
+        "0008-fix_ioqueue_ipv6_sendto.patch",
+        "0009-add-config-site.patch",
+        "0001-win-config.patch",
+        "0002-win-vs-gnutls.patch",
+        "0003-win-vs2017-props.patch"
+    ],
+    "project_paths": [
+        "pjlib-util/build/pjlib_util.vcxproj",
+        "pjmedia/build/pjmedia.vcxproj",
+        "pjmedia/build/pjmedia_codec.vcxproj",
+        "pjlib/build/pjlib.vcxproj",
+        "pjsip/build/pjsip_core.vcxproj",
+        "pjsip/build/pjsip_simple.vcxproj",
+        "pjsip/build/pjsua_lib.vcxproj",
+        "pjsip/build/pjsua2_lib.vcxproj",
+        "pjsip/build/pjsip_ua.vcxproj",
+        "pjnath/build/pjnath.vcxproj"
+    ],
+    "with_env" : "",
+    "custom_scripts": {
+        "pre_build": [],
+        "build": [],
+        "post_build": []
+    }
+}
