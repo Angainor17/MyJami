@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat
+# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

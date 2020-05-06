@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcrypto
+# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -96,7 +96,7 @@
       "cxxFolder": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx",
       "gradleModulePathName": ":libringclient",
       "intermediatesFolder": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\build\\intermediates",
-      "makeFile": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\CMakeLists.txt",
+      "makeFile": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMakeLists.txt",
       "moduleBuildFile": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\build.gradle",
       "moduleRootFolder": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient",
       "ndkDefaultAbiList": [

@@ -1,5 +1,8 @@
 apply plugin: 'com.android.library'
 
+def CMAKE_PATH = "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMakeLists.txt"
+//def CMAKE_PATH = "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\bin\\jni\\CMakeLists.txt"
+
 android {
 
     compileSdkVersion 29
@@ -9,57 +12,90 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         vectorDrawables.useSupportLibrary = true
-    }
 
-
-    externalNativeBuild {
-        cmake {
-            version "3.10.2"
-            path "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\CMakeLists.txt"
-
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_8
+            targetCompatibility JavaVersion.VERSION_1_8
         }
     }
 
     sourceSets {
         main {
-//            aidl.srcDirs = ['src/main/java']
-            jniLibs.srcDir 'src/main/cpp/daemon/bin/jni'
+            jniLibs.srcDir 'src/main/cpp'
             jni.srcDirs = []
+        }
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    externalNativeBuild {
+        cmake {
+//          arguments "-DPATH_TO_SUPERPOWERED:STRING=${superpowered_sdk_path}", '-DANDROID_TOOLCHAIN=clang', '-DANDROID_ARM_NEON=TRUE', '-DANDROID_STL=gnustl_static'
+            version "3.10.2"
+            path CMAKE_PATH
         }
     }
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_1_8
-        targetCompatibility JavaVersion.VERSION_1_8
+    dependencies {
+
+        implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+        // VCard parsing
+        implementation('com.googlecode.ez-vcard:ez-vcard:0.10.2') {
+            exclude module: 'freemarker'
+            exclude module: 'jackson-core'
+            exclude module: 'jsoup'
+        }
+
+        // QRCode encoding
+        implementation 'com.google.zxing:core:3.3.2'
+
+        // dependency injection
+        implementation 'javax.inject:javax.inject:1'
+
+        // ORM
+        implementation 'com.j256.ormlite:ormlite-core:4.48'
+
+        // Required -- JUnit 4 framework
+        implementation 'junit:junit:4.12'
+
+        // RxJava
+        implementation "io.reactivex.rxjava2:rxjava:2.1.9"
     }
-
-}
-dependencies {
-
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
-    // VCard parsing
-    implementation('com.googlecode.ez-vcard:ez-vcard:0.10.2') {
-        exclude module: 'freemarker'
-        exclude module: 'jackson-core'
-        exclude module: 'jsoup'
-    }
-
-    // QRCode encoding
-    implementation 'com.google.zxing:core:3.3.2'
-
-    // dependency injection
-    implementation 'javax.inject:javax.inject:1'
-
-    // ORM
-    implementation 'com.j256.ormlite:ormlite-core:4.48'
-
-    // Required -- JUnit 4 framework
-    implementation 'junit:junit:4.12'
-
-    // RxJava
-    implementation "io.reactivex.rxjava2:rxjava:2.1.9"
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_8
-targetCompatibility = JavaVersion.VERSION_1_8
+//task buildNative(type: Exec) {
+//    if (System.env.ANDROID_NDK != null) {
+//        println 'Running NDK build'
+//        workingDir "src/main"
+//        commandLine 'cmd', '/c', '%ANDROID_NDK%/ndk-build'
+//    } else {
+//        doLast {
+//            println '##################'
+//            println 'Skipping NDK build'
+//            println 'Reason: ANDROID_NDK not set.'
+//            println '##################'
+//        }
+//    }
+//}
+//
+//task copyNativeLibs(dependsOn:buildNative, type: Copy) {
+//    println 'Copying *.so files from /src/main/libs to /build/lib'
+//    from(new File('src/main/libs')) { include '**/*.so' }
+//    into new File(buildDir, 'lib')
+//}
+//
+//task nativeLibsToJar(dependsOn:copyNativeLibs, type: Exec, description: 'create a jar archive of the native libs') {
+//    println 'Compressing /build/lib into /libs/lib.jar'
+//    workingDir "build"
+//    commandLine 'cmd', '/c', 'jar cf ../libs/lib.jar lib'
+//}
+//
+//tasks.withType(Compile) { compileTask -> compileTask.dependsOn nativeLibsToJar }
+//
+//clean.dependsOn 'cleanCopyNativeLibs'
+//
+//tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
+//    pkgTask.jniFolders = new HashSet<File>();
+//    pkgTask.jniFolders.add(new File(projectDir, 'native-libs'))
+//}

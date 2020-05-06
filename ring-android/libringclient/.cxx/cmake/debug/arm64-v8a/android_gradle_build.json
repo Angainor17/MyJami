@@ -1,39 +1,1292 @@
 {
-  "stringTable": {},
+  "stringTable": {
+    "0": "C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/arm64-v8a",
+    "1": "--target=aarch64-none-linux-android21 --gcc-toolchain=C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64 --sysroot=C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dring_EXPORTS -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -O0 -fno-limit-debug-info -fPIC",
+    "2": "null"
+  },
   "buildFiles": [
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\hooks\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\natpmp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\audio\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\sip\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\pupnp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\video\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\compat\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\im\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\eth\\libdevcrypto\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\audio\\sound\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\security\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\dring\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\config\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\compat\\msvc\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\hooks\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\compat\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\DefaultCXX.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\compat\\msvc\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\Utils.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcrypto\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\Default.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\config\\CMakeLists.txt",
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\client\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\eth\\libdevcore\\CMakeLists.txt"
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\CMakeLists.txt"
   ],
   "cleanCommands": [
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
   ],
   "buildTargetsCommand": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
-  "libraries": {},
-  "toolchains": {
-    "0": {}
+  "libraries": {
+    "ring-Debug-arm64-v8a": {
+      "buildCommand": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\arm64-v8a\" ring",
+      "buildType": "debug",
+      "toolchain": "457053432",
+      "abi": "arm64-v8a",
+      "artifactName": "ring",
+      "files": [
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\account.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\account_factory.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\archiver.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\base64.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\buildinfo.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\call.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\call_factory.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\conference.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\data_transfer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\fileutils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ftp_server.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ice_transport.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ip_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\logger.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\manager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\peer_connection.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\preferences.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ring_api.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\scheduled_executor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\smartools.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\string_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\threadloop.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\turn_transport.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\utf8_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\callmanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\configurationmanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\datatransfer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\presencemanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\ring_signal.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\videomanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\config\\yamlparser.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\hooks\\urlhook.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\instant_messaging.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\message_engine.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\account_manager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\accountarchive.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\archive_account_manager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\connectionmanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\channeled_transport.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\contact_list.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\jamiaccount.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\multiplexed_socket.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\namedirectory.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\p2p.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\server_account_manager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\sips_transport_ice.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\Common.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\CommonData.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\FixedHash.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\SHA3.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcrypto\\Common.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\congestion_control.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\libav_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\localrecorder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\localrecordermanager.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_buffer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_codec.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_decoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_encoder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_filter.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_io_handle.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_player.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_recorder.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\recordable.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\socket_pair.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\system_codec_container.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_frame_resizer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_input.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_receive_thread.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_rtp_session.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_sender.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audiobuffer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audiolayer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audioloop.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\dcblocker.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\resampler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\ringbuffer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\ringbufferpool.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\tonecontrol.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\dsp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\audiofile.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\dtmf.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\dtmfgenerator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\tone.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\tonelist.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\accel.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\filter_transpose.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\sinkclient.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_base.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_device_monitor.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_input.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_mixer.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_receive_thread.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_rtp_session.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_scaler.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_sender.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\certstore.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\diffie-hellman.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\memory.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\tls_session.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\tlsvalidator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\pres_sub_client.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\pres_sub_server.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sdes_negotiator.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sdp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sip_utils.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipaccount.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipaccountbase.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipcall.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sippresence.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\siptransport.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipvoiplink.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\upnp_context.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\upnp_control.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\igd.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\mapping.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\nat_pmp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\pmp_igd.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\pupnp.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\upnp_igd.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\srtp.c",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "src": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\Makefile.am",
+          "flagsOrdinal": 2,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "headers": [
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\account.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\account_factory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\account_schema.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\archiver.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\array_size.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\base64.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\call.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\call_factory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\channel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\compiler_intrinsics.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\conference.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\data_transfer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\enumclass_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\fileutils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ftp_server.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\generic_io.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ice_socket.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ice_transport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ip_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\logger.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\manager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\map_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\noncopyable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\peer_connection.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\preferences.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\rational.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\registration_states.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\ring_types.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\rw_mutex.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\scheduled_executor.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\smartools.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\string_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\threadloop.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\turn_transport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\utf8_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\ring_signal.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\videomanager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\config\\serializable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\config\\yamlparser.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\account_const.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\call_const.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\callmanager_interface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\configurationmanager_interface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\datatransfer_interface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\dring.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\media_const.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\presence_const.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\presencemanager_interface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\security_const.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\videomanager_interface.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\hooks\\urlhook.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\instant_messaging.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\message_engine.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\abstract_sip_transport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\account_manager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\accountarchive.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\archive_account_manager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\configkeys.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\connectionmanager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\channeled_transport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\contact_list.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\jami_contact.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\jamiaccount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\multiplexed_socket.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\namedirectory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\p2p.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\server_account_manager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\sips_transport_ice.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\Address.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\Common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\CommonData.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\FixedHash.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\SHA3.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\vector_ref.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcrypto\\Common.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\congestion_control.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\decoder_finder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\libav_deps.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\libav_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\localrecorder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\localrecordermanager.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_buffer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_codec.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_decoder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_device.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_encoder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_filter.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_io_handle.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_player.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_recorder.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\media_stream.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\recordable.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\rtp_session.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\socket_pair.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\srtp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\system_codec_container.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_frame_resizer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_input.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_receive_thread.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_rtp_session.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audio_sender.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audiobuffer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audiolayer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\audioloop.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\dcblocker.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\resampler.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\ringbuffer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\ringbufferpool.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\tonecontrol.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\dsp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\audiofile.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\dtmf.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\dtmfgenerator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\tone.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\tonelist.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\accel.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\filter_transpose.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\shm_header.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\sinkclient.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_base.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_device.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_device_monitor.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_input.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_mixer.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_receive_thread.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_rtp_session.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_scaler.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\video_sender.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\certstore.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\diffie-hellman.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\memory.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\tls_session.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\tlsvalidator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\pres_sub_client.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\pres_sub_server.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sdes_negotiator.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sdp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sip_utils.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipaccount.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipaccountbase.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipcall.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sippresence.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\siptransport.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\sipvoiplink.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\upnp_context.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\upnp_control.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\global_mapping.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\igd.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\mapping.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\upnp_protocol.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\nat_pmp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\pmp_igd.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\pupnp.h",
+          "workingDirectoryOrdinal": 0
+        },
+        {
+          "header": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\upnp_igd.h",
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libring.so"
+    }
   },
-  "cFileExtensions": [],
-  "cppFileExtensions": []
+  "toolchains": {
+    "457053432": {
+      "cCompilerExecutable": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "cppCompilerExecutable": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp"
+  ]
 }

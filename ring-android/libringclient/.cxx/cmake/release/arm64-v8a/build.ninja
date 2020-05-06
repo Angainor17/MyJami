@@ -43,14 +43,14 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -67,14 +67,14 @@ build compat/edit_cache: phony compat/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build compat/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\compat && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\compat && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build compat/rebuild_cache: phony compat/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt
 # =============================================================================
 
 
@@ -91,14 +91,14 @@ build compat/msvc/edit_cache: phony compat/msvc/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build compat/msvc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\compat\msvc && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\compat\msvc && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build compat/msvc/rebuild_cache: phony compat/msvc/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -115,14 +115,14 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -139,14 +139,14 @@ build src/client/edit_cache: phony src/client/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/client/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\client && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\client && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/client/rebuild_cache: phony src/client/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -163,14 +163,14 @@ build src/config/edit_cache: phony src/config/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/config/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\config && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\config && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/config/rebuild_cache: phony src/config/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -187,14 +187,14 @@ build src/dring/edit_cache: phony src/dring/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/dring/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\dring && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\dring && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/dring/rebuild_cache: phony src/dring/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -211,14 +211,14 @@ build src/hooks/edit_cache: phony src/hooks/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/hooks/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\hooks && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\hooks && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/hooks/rebuild_cache: phony src/hooks/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -235,14 +235,14 @@ build src/im/edit_cache: phony src/im/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/im/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\im && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\im && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/im/rebuild_cache: phony src/im/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -259,14 +259,14 @@ build src/jamidht/edit_cache: phony src/jamidht/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/jamidht/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/rebuild_cache: phony src/jamidht/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt
 # =============================================================================
 
 
@@ -283,14 +283,14 @@ build src/jamidht/eth/libdevcore/edit_cache: phony src/jamidht/eth/libdevcore/CM
 # Utility command for rebuild_cache
 
 build src/jamidht/eth/libdevcore/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht\eth\libdevcore && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht\eth\libdevcore && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/eth/libdevcore/rebuild_cache: phony src/jamidht/eth/libdevcore/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt
 # =============================================================================
 
 
@@ -307,14 +307,14 @@ build src/jamidht/eth/libdevcrypto/edit_cache: phony src/jamidht/eth/libdevcrypt
 # Utility command for rebuild_cache
 
 build src/jamidht/eth/libdevcrypto/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht\eth\libdevcrypto && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\jamidht\eth\libdevcrypto && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/eth/libdevcrypto/rebuild_cache: phony src/jamidht/eth/libdevcrypto/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -331,14 +331,14 @@ build src/media/edit_cache: phony src/media/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/media/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/rebuild_cache: phony src/media/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt
 # =============================================================================
 
 
@@ -355,14 +355,14 @@ build src/media/audio/edit_cache: phony src/media/audio/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build src/media/audio/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\audio && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\audio && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/audio/rebuild_cache: phony src/media/audio/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt
 # =============================================================================
 
 
@@ -379,14 +379,14 @@ build src/media/audio/sound/edit_cache: phony src/media/audio/sound/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build src/media/audio/sound/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\audio\sound && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\audio\sound && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/audio/sound/rebuild_cache: phony src/media/audio/sound/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt
 # =============================================================================
 
 
@@ -403,14 +403,14 @@ build src/media/video/edit_cache: phony src/media/video/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build src/media/video/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\video && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\media\video && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/video/rebuild_cache: phony src/media/video/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -427,14 +427,14 @@ build src/security/edit_cache: phony src/security/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/security/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\security && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\security && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/security/rebuild_cache: phony src/security/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -451,14 +451,14 @@ build src/sip/edit_cache: phony src/sip/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/sip/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\sip && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\sip && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/sip/rebuild_cache: phony src/sip/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -475,14 +475,14 @@ build src/upnp/edit_cache: phony src/upnp/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/upnp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/rebuild_cache: phony src/upnp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt
 # =============================================================================
 
 
@@ -499,14 +499,14 @@ build src/upnp/protocol/edit_cache: phony src/upnp/protocol/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/protocol/rebuild_cache: phony src/upnp/protocol/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt
 # =============================================================================
 
 
@@ -523,14 +523,14 @@ build src/upnp/protocol/natpmp/edit_cache: phony src/upnp/protocol/natpmp/CMakeF
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/natpmp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol\natpmp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol\natpmp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/protocol/natpmp/rebuild_cache: phony src/upnp/protocol/natpmp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt
 # =============================================================================
 
 
@@ -547,7 +547,7 @@ build src/upnp/protocol/pupnp/edit_cache: phony src/upnp/protocol/pupnp/CMakeFil
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/pupnp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol\pupnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a\src\upnp\protocol\pupnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\arm64-v8a"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -702,13 +702,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
+build C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
 
 #############################################
 # Clean all the built files.

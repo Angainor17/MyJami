@@ -1,6 +1,6 @@
 Executable : C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
--HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon
+-HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp
 -DCMAKE_BUILD_TYPE=Debug
 -DCMAKE_TOOLCHAIN_FILE=C:\Users\angai\AppData\Local\Android\Sdk\ndk\21.1.6352462\build\cmake\android.toolchain.cmake
 -DANDROID_ABI=x86

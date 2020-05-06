@@ -1,33 +1,43 @@
 {
   "buildFiles": [
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\hooks\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\natpmp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\audio\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\sip\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\pupnp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\video\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\compat\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\im\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\eth\\libdevcrypto\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\media\\audio\\sound\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\security\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\dring\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\config\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\compat\\msvc\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\hooks\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\sip\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\video\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\compat\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\DefaultCXX.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\sound\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\security\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\compat\\msvc\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcore\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\natpmp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\audio\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\pupnp\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\Utils.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\im\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\jamidht\\eth\\libdevcrypto\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\media\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\CMake\\Default.cmake",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\dring\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\config\\CMakeLists.txt",
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\platforms.cmake",
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\ndk\\21.1.6352462\\build\\cmake\\android.toolchain.cmake",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\client\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\upnp\\protocol\\CMakeLists.txt",
-    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\daemon\\src\\jamidht\\eth\\libdevcore\\CMakeLists.txt"
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\client\\CMakeLists.txt",
+    "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\src\\main\\cpp\\src\\upnp\\protocol\\CMakeLists.txt"
   ],
   "cleanCommands": [
     "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\x86_64\" clean"
   ],
   "buildTargetsCommand": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\x86_64\" {LIST_OF_TARGETS_TO_BUILD}",
-  "libraries": {}
+  "libraries": {
+    "ring-Debug-x86_64": {
+      "artifactName": "ring",
+      "buildCommand": "C:\\Users\\angai\\AppData\\Local\\Android\\Sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\.cxx\\cmake\\debug\\x86_64\" ring",
+      "abi": "x86_64",
+      "output": "C:\\Users\\angai\\AndroidStudioProjects\\MyJami\\ring-android\\libringclient\\build\\intermediates\\cmake\\debug\\obj\\x86_64\\libring.so"
+    }
+  }
 }

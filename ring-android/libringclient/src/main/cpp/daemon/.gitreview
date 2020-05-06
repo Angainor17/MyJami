@@ -1,6 +1,0 @@
-[gerrit]
-host=review.jami.net
-port=29420
-project=ring-daemon.git
-defaultremote=origin
-defaultbranch=master

@@ -23,7 +23,6 @@ import cx.ring.services.LogService;
 
 public class Log {
 
-
     private static LogService mLogService;
 
     public static void injectLogService (LogService service) {
@@ -35,7 +34,11 @@ public class Log {
     }
 
     public static void e(String tag, String message) {
-        mLogService.e(tag, message);
+        try {
+            mLogService.e(tag, message);
+        }catch (Exception e){
+
+        }
     }
 
     public static void i(String tag, String message) {
@@ -51,7 +54,11 @@ public class Log {
     }
 
     public static void e(String tag, String message, Throwable e) {
-        mLogService.e(tag, message, e);
+        try {
+            mLogService.e(tag, message, e);
+        }catch (Exception e1){
+
+        }
     }
 
     public static void i(String tag, String message, Throwable e) {

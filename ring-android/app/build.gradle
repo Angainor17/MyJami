@@ -10,15 +10,20 @@ android {
         minSdkVersion 21
         targetSdkVersion 29
         versionCode 2
-        multiDexEnabled true
+//        multiDexEnabled true
         versionName "1.0"
         vectorDrawables.useSupportLibrary = true
+
+        ndk {
+            abiFilters "armeabi-v7a", "x86", "armeabi", "mips"
+        }
     }
 
     sourceSets {
         main {
             aidl.srcDirs = ['src/main/java']
-            jniLibs.srcDir 'src/main/cpp'
+
+//            jniLibs.srcDir 'src/main/cpp'
             jni.srcDirs = []
         }
         debug.setRoot('build-types/debug')
@@ -31,11 +36,11 @@ android {
     }
     buildTypes {
         debug {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -48,24 +53,26 @@ android {
             dimension "push"
         }
     }
-    signingConfigs {
-        config {
-            keyAlias 'ring'
-            storeFile file('../keystore.bin')
-        }
-    }
+//    signingConfigs {
+//        config {
+//            keyAlias 'ring'
+//            storeFile file('../keystore.bin')
+//        }
+//    }
     lintOptions {
         disable 'MissingTranslation'
+        checkReleaseBuilds false
+        abortOnError false
     }
-    splits {
-        abi {
-            enable true
-            reset()
-            def sp = archs.split(',')
-            include(sp)
-            universalApk true
-        }
-    }
+//    splits {
+//        abi {
+//            enable true
+//            reset()
+//            def sp = archs.split(',')
+//            include(sp)
+//            universalApk true
+//        }
+//    }
 }
 
 dependencies {
@@ -75,7 +82,7 @@ dependencies {
     implementation fileTree(include: '*.jar', dir: 'libs')
     implementation project(':libringclient')
 
-    implementation "androidx.multidex:multidex:2.0.1"
+//    implementation "androidx.multidex:multidex:2.0.1"
     implementation 'androidx.appcompat:appcompat:1.1.0'
     implementation 'androidx.core:core-ktx:1.2.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'

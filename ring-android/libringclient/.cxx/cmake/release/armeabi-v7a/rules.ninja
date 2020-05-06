@@ -23,7 +23,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\armeabi-v7a
+  command = C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\release\armeabi-v7a
   description = Re-running CMake...
   generator = 1
 

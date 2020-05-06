@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio
+# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

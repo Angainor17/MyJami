@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/dring
+# Install script for directory: C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

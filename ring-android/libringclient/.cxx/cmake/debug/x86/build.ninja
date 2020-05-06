@@ -29,6 +29,759 @@ ninja_required_version = 1.5
 
 include rules.ninja
 
+# =============================================================================
+# Object build statements for SHARED_LIBRARY target ring
+
+
+#############################################
+# Order-only phony target for ring
+
+build cmake_object_order_depends_target_ring: phony
+build CMakeFiles/ring.dir/src/account.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/account.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\account.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/account_factory.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/account_factory.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\account_factory.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/archiver.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/archiver.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\archiver.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/base64.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/base64.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\base64.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/buildinfo.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/buildinfo.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\buildinfo.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/call.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/call.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\call.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/call_factory.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/call_factory.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\call_factory.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/conference.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/conference.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\conference.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/data_transfer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/data_transfer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\data_transfer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/fileutils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/fileutils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\fileutils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/ftp_server.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/ftp_server.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\ftp_server.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/ice_transport.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/ice_transport.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\ice_transport.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/ip_utils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/ip_utils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\ip_utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/logger.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/logger.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\logger.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/manager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/manager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\manager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/peer_connection.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/peer_connection.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\peer_connection.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/preferences.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/preferences.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\preferences.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/ring_api.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/ring_api.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\ring_api.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/scheduled_executor.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/scheduled_executor.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\scheduled_executor.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/smartools.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/smartools.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\smartools.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/string_utils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/string_utils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\string_utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/threadloop.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/threadloop.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\threadloop.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/turn_transport.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/turn_transport.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\turn_transport.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/utf8_utils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/utf8_utils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\utf8_utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src
+build CMakeFiles/ring.dir/src/client/callmanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/callmanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\callmanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/client/configurationmanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/configurationmanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\configurationmanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/client/datatransfer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/datatransfer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\datatransfer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/client/presencemanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/presencemanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\presencemanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/client/ring_signal.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/ring_signal.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\ring_signal.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/client/videomanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/videomanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\client\videomanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\client
+build CMakeFiles/ring.dir/src/config/yamlparser.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/yamlparser.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\config\yamlparser.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\config
+build CMakeFiles/ring.dir/src/hooks/urlhook.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/urlhook.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\hooks\urlhook.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\hooks
+build CMakeFiles/ring.dir/src/im/instant_messaging.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/instant_messaging.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\im\instant_messaging.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\im
+build CMakeFiles/ring.dir/src/im/message_engine.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/message_engine.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\im\message_engine.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\im
+build CMakeFiles/ring.dir/src/jamidht/account_manager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/account_manager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\account_manager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/accountarchive.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/accountarchive.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\accountarchive.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/archive_account_manager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/archive_account_manager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\archive_account_manager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/connectionmanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/connectionmanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\connectionmanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/channeled_transport.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/channeled_transport.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\channeled_transport.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/contact_list.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/contact_list.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\contact_list.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/jamiaccount.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/jamiaccount.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\jamiaccount.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/multiplexed_socket.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/multiplexed_socket.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\multiplexed_socket.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/namedirectory.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/namedirectory.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\namedirectory.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/p2p.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/p2p.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\p2p.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/server_account_manager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/server_account_manager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\server_account_manager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/sips_transport_ice.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/sips_transport_ice.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\sips_transport_ice.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht
+build CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/Common.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/Common.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore\Common.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore
+build CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/CommonData.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CommonData.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore\CommonData.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore
+build CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/FixedHash.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/FixedHash.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore\FixedHash.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore
+build CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/SHA3.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/SHA3.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore\SHA3.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht\eth\libdevcore
+build CMakeFiles/ring.dir/src/jamidht/eth/libdevcrypto/Common.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/Common.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\jamidht\eth\libdevcrypto\Common.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\jamidht\eth\libdevcrypto
+build CMakeFiles/ring.dir/src/media/congestion_control.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/congestion_control.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\congestion_control.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/libav_utils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/libav_utils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\libav_utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/localrecorder.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/localrecorder.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\localrecorder.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/localrecordermanager.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/localrecordermanager.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\localrecordermanager.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_buffer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_buffer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_buffer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_codec.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_codec.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_codec.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_decoder.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_decoder.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_decoder.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_encoder.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_encoder.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_encoder.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_filter.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_filter.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_filter.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_io_handle.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_io_handle.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_io_handle.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_player.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_player.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_player.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/media_recorder.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/media_recorder.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\media_recorder.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/recordable.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/recordable.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\recordable.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/socket_pair.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/socket_pair.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\socket_pair.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/srtp.c.o: C_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/srtp.c || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\srtp.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/system_codec_container.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/system_codec_container.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\system_codec_container.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media
+build CMakeFiles/ring.dir/src/media/audio/audio_frame_resizer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audio_frame_resizer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audio_frame_resizer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audio_input.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audio_input.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audio_input.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audio_receive_thread.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audio_receive_thread.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audio_receive_thread.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audio_rtp_session.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audio_rtp_session.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audio_rtp_session.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audio_sender.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audio_sender.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audio_sender.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audiobuffer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audiobuffer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audiobuffer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audiolayer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audiolayer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audiolayer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/audioloop.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/audioloop.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\audioloop.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/dcblocker.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/dcblocker.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\dcblocker.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/resampler.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/resampler.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\resampler.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/ringbuffer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/ringbuffer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\ringbuffer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/ringbufferpool.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/ringbufferpool.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\ringbufferpool.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/tonecontrol.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/tonecontrol.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\tonecontrol.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/dsp.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/dsp.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\dsp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio
+build CMakeFiles/ring.dir/src/media/audio/sound/audiofile.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/audiofile.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\sound\audiofile.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio\sound
+build CMakeFiles/ring.dir/src/media/audio/sound/dtmf.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/dtmf.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\sound\dtmf.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio\sound
+build CMakeFiles/ring.dir/src/media/audio/sound/dtmfgenerator.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/dtmfgenerator.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\sound\dtmfgenerator.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio\sound
+build CMakeFiles/ring.dir/src/media/audio/sound/tone.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/tone.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\sound\tone.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio\sound
+build CMakeFiles/ring.dir/src/media/audio/sound/tonelist.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/tonelist.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\audio\sound\tonelist.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\audio\sound
+build CMakeFiles/ring.dir/src/media/video/accel.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/accel.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\accel.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/filter_transpose.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/filter_transpose.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\filter_transpose.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/sinkclient.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/sinkclient.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\sinkclient.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_base.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_base.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_base.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_device_monitor.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_device_monitor.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_device_monitor.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_input.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_input.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_input.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_mixer.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_mixer.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_mixer.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_receive_thread.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_receive_thread.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_receive_thread.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_rtp_session.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_rtp_session.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_rtp_session.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_scaler.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_scaler.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_scaler.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/media/video/video_sender.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/video_sender.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\media\video\video_sender.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\media\video
+build CMakeFiles/ring.dir/src/security/certstore.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/certstore.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\security\certstore.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\security
+build CMakeFiles/ring.dir/src/security/diffie-hellman.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/diffie-hellman.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\security\diffie-hellman.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\security
+build CMakeFiles/ring.dir/src/security/memory.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/memory.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\security\memory.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\security
+build CMakeFiles/ring.dir/src/security/tls_session.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/tls_session.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\security\tls_session.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\security
+build CMakeFiles/ring.dir/src/security/tlsvalidator.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/tlsvalidator.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\security\tlsvalidator.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\security
+build CMakeFiles/ring.dir/src/sip/pres_sub_client.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/pres_sub_client.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\pres_sub_client.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/pres_sub_server.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/pres_sub_server.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\pres_sub_server.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sdes_negotiator.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sdes_negotiator.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sdes_negotiator.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sdp.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sdp.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sdp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sip_utils.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sip_utils.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sip_utils.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sipaccount.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sipaccount.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sipaccount.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sipaccountbase.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sipaccountbase.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sipaccountbase.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sipcall.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sipcall.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sipcall.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sippresence.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sippresence.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sippresence.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/siptransport.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/siptransport.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\siptransport.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/sip/sipvoiplink.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/sipvoiplink.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\sip\sipvoiplink.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\sip
+build CMakeFiles/ring.dir/src/upnp/upnp_context.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/upnp_context.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\upnp_context.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp
+build CMakeFiles/ring.dir/src/upnp/upnp_control.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/upnp_control.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\upnp_control.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp
+build CMakeFiles/ring.dir/src/upnp/protocol/igd.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/igd.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\igd.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol
+build CMakeFiles/ring.dir/src/upnp/protocol/mapping.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/mapping.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\mapping.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol
+build CMakeFiles/ring.dir/src/upnp/protocol/natpmp/nat_pmp.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/nat_pmp.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\natpmp\nat_pmp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol\natpmp
+build CMakeFiles/ring.dir/src/upnp/protocol/natpmp/pmp_igd.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/pmp_igd.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\natpmp\pmp_igd.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol\natpmp
+build CMakeFiles/ring.dir/src/upnp/protocol/pupnp/pupnp.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/pupnp.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\pupnp\pupnp.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol\pupnp
+build CMakeFiles/ring.dir/src/upnp/protocol/pupnp/upnp_igd.cpp.o: CXX_COMPILER__ring C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/upnp_igd.cpp || cmake_object_order_depends_target_ring
+  DEFINES = -Dring_EXPORTS
+  DEP_FILE = CMakeFiles\ring.dir\src\upnp\protocol\pupnp\upnp_igd.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC
+  OBJECT_DIR = CMakeFiles\ring.dir
+  OBJECT_FILE_DIR = CMakeFiles\ring.dir\src\upnp\protocol\pupnp
+
+# =============================================================================
+# Link build statements for SHARED_LIBRARY target ring
+
+
+#############################################
+# Link the shared library C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\build\intermediates\cmake\debug\obj\x86\libring.so
+
+build C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/x86/libring.so: CXX_SHARED_LIBRARY_LINKER__ring CMakeFiles/ring.dir/src/account.cpp.o CMakeFiles/ring.dir/src/account_factory.cpp.o CMakeFiles/ring.dir/src/archiver.cpp.o CMakeFiles/ring.dir/src/base64.cpp.o CMakeFiles/ring.dir/src/buildinfo.cpp.o CMakeFiles/ring.dir/src/call.cpp.o CMakeFiles/ring.dir/src/call_factory.cpp.o CMakeFiles/ring.dir/src/conference.cpp.o CMakeFiles/ring.dir/src/data_transfer.cpp.o CMakeFiles/ring.dir/src/fileutils.cpp.o CMakeFiles/ring.dir/src/ftp_server.cpp.o CMakeFiles/ring.dir/src/ice_transport.cpp.o CMakeFiles/ring.dir/src/ip_utils.cpp.o CMakeFiles/ring.dir/src/logger.cpp.o CMakeFiles/ring.dir/src/manager.cpp.o CMakeFiles/ring.dir/src/peer_connection.cpp.o CMakeFiles/ring.dir/src/preferences.cpp.o CMakeFiles/ring.dir/src/ring_api.cpp.o CMakeFiles/ring.dir/src/scheduled_executor.cpp.o CMakeFiles/ring.dir/src/smartools.cpp.o CMakeFiles/ring.dir/src/string_utils.cpp.o CMakeFiles/ring.dir/src/threadloop.cpp.o CMakeFiles/ring.dir/src/turn_transport.cpp.o CMakeFiles/ring.dir/src/utf8_utils.cpp.o CMakeFiles/ring.dir/src/client/callmanager.cpp.o CMakeFiles/ring.dir/src/client/configurationmanager.cpp.o CMakeFiles/ring.dir/src/client/datatransfer.cpp.o CMakeFiles/ring.dir/src/client/presencemanager.cpp.o CMakeFiles/ring.dir/src/client/ring_signal.cpp.o CMakeFiles/ring.dir/src/client/videomanager.cpp.o CMakeFiles/ring.dir/src/config/yamlparser.cpp.o CMakeFiles/ring.dir/src/hooks/urlhook.cpp.o CMakeFiles/ring.dir/src/im/instant_messaging.cpp.o CMakeFiles/ring.dir/src/im/message_engine.cpp.o CMakeFiles/ring.dir/src/jamidht/account_manager.cpp.o CMakeFiles/ring.dir/src/jamidht/accountarchive.cpp.o CMakeFiles/ring.dir/src/jamidht/archive_account_manager.cpp.o CMakeFiles/ring.dir/src/jamidht/connectionmanager.cpp.o CMakeFiles/ring.dir/src/jamidht/channeled_transport.cpp.o CMakeFiles/ring.dir/src/jamidht/contact_list.cpp.o CMakeFiles/ring.dir/src/jamidht/jamiaccount.cpp.o CMakeFiles/ring.dir/src/jamidht/multiplexed_socket.cpp.o CMakeFiles/ring.dir/src/jamidht/namedirectory.cpp.o CMakeFiles/ring.dir/src/jamidht/p2p.cpp.o CMakeFiles/ring.dir/src/jamidht/server_account_manager.cpp.o CMakeFiles/ring.dir/src/jamidht/sips_transport_ice.cpp.o CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/Common.cpp.o CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/CommonData.cpp.o CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/FixedHash.cpp.o CMakeFiles/ring.dir/src/jamidht/eth/libdevcore/SHA3.cpp.o CMakeFiles/ring.dir/src/jamidht/eth/libdevcrypto/Common.cpp.o CMakeFiles/ring.dir/src/media/congestion_control.cpp.o CMakeFiles/ring.dir/src/media/libav_utils.cpp.o CMakeFiles/ring.dir/src/media/localrecorder.cpp.o CMakeFiles/ring.dir/src/media/localrecordermanager.cpp.o CMakeFiles/ring.dir/src/media/media_buffer.cpp.o CMakeFiles/ring.dir/src/media/media_codec.cpp.o CMakeFiles/ring.dir/src/media/media_decoder.cpp.o CMakeFiles/ring.dir/src/media/media_encoder.cpp.o CMakeFiles/ring.dir/src/media/media_filter.cpp.o CMakeFiles/ring.dir/src/media/media_io_handle.cpp.o CMakeFiles/ring.dir/src/media/media_player.cpp.o CMakeFiles/ring.dir/src/media/media_recorder.cpp.o CMakeFiles/ring.dir/src/media/recordable.cpp.o CMakeFiles/ring.dir/src/media/socket_pair.cpp.o CMakeFiles/ring.dir/src/media/srtp.c.o CMakeFiles/ring.dir/src/media/system_codec_container.cpp.o CMakeFiles/ring.dir/src/media/audio/audio_frame_resizer.cpp.o CMakeFiles/ring.dir/src/media/audio/audio_input.cpp.o CMakeFiles/ring.dir/src/media/audio/audio_receive_thread.cpp.o CMakeFiles/ring.dir/src/media/audio/audio_rtp_session.cpp.o CMakeFiles/ring.dir/src/media/audio/audio_sender.cpp.o CMakeFiles/ring.dir/src/media/audio/audiobuffer.cpp.o CMakeFiles/ring.dir/src/media/audio/audiolayer.cpp.o CMakeFiles/ring.dir/src/media/audio/audioloop.cpp.o CMakeFiles/ring.dir/src/media/audio/dcblocker.cpp.o CMakeFiles/ring.dir/src/media/audio/resampler.cpp.o CMakeFiles/ring.dir/src/media/audio/ringbuffer.cpp.o CMakeFiles/ring.dir/src/media/audio/ringbufferpool.cpp.o CMakeFiles/ring.dir/src/media/audio/tonecontrol.cpp.o CMakeFiles/ring.dir/src/media/audio/dsp.cpp.o CMakeFiles/ring.dir/src/media/audio/sound/audiofile.cpp.o CMakeFiles/ring.dir/src/media/audio/sound/dtmf.cpp.o CMakeFiles/ring.dir/src/media/audio/sound/dtmfgenerator.cpp.o CMakeFiles/ring.dir/src/media/audio/sound/tone.cpp.o CMakeFiles/ring.dir/src/media/audio/sound/tonelist.cpp.o CMakeFiles/ring.dir/src/media/video/accel.cpp.o CMakeFiles/ring.dir/src/media/video/filter_transpose.cpp.o CMakeFiles/ring.dir/src/media/video/sinkclient.cpp.o CMakeFiles/ring.dir/src/media/video/video_base.cpp.o CMakeFiles/ring.dir/src/media/video/video_device_monitor.cpp.o CMakeFiles/ring.dir/src/media/video/video_input.cpp.o CMakeFiles/ring.dir/src/media/video/video_mixer.cpp.o CMakeFiles/ring.dir/src/media/video/video_receive_thread.cpp.o CMakeFiles/ring.dir/src/media/video/video_rtp_session.cpp.o CMakeFiles/ring.dir/src/media/video/video_scaler.cpp.o CMakeFiles/ring.dir/src/media/video/video_sender.cpp.o CMakeFiles/ring.dir/src/security/certstore.cpp.o CMakeFiles/ring.dir/src/security/diffie-hellman.cpp.o CMakeFiles/ring.dir/src/security/memory.cpp.o CMakeFiles/ring.dir/src/security/tls_session.cpp.o CMakeFiles/ring.dir/src/security/tlsvalidator.cpp.o CMakeFiles/ring.dir/src/sip/pres_sub_client.cpp.o CMakeFiles/ring.dir/src/sip/pres_sub_server.cpp.o CMakeFiles/ring.dir/src/sip/sdes_negotiator.cpp.o CMakeFiles/ring.dir/src/sip/sdp.cpp.o CMakeFiles/ring.dir/src/sip/sip_utils.cpp.o CMakeFiles/ring.dir/src/sip/sipaccount.cpp.o CMakeFiles/ring.dir/src/sip/sipaccountbase.cpp.o CMakeFiles/ring.dir/src/sip/sipcall.cpp.o CMakeFiles/ring.dir/src/sip/sippresence.cpp.o CMakeFiles/ring.dir/src/sip/siptransport.cpp.o CMakeFiles/ring.dir/src/sip/sipvoiplink.cpp.o CMakeFiles/ring.dir/src/upnp/upnp_context.cpp.o CMakeFiles/ring.dir/src/upnp/upnp_control.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/igd.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/mapping.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/natpmp/nat_pmp.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/natpmp/pmp_igd.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/pupnp/pupnp.cpp.o CMakeFiles/ring.dir/src/upnp/protocol/pupnp/upnp_igd.cpp.o
+  LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O0 -fno-limit-debug-info
+  LINK_FLAGS = -Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
+  LINK_LIBRARIES = -latomic -lm
+  OBJECT_DIR = CMakeFiles\ring.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  SONAME = libring.so
+  SONAME_FLAG = -Wl,-soname,
+  TARGET_FILE = C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\build\intermediates\cmake\debug\obj\x86\libring.so
+  TARGET_PDB = ring.so.dbg
 
 #############################################
 # Utility command for edit_cache
@@ -43,14 +796,14 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86 && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86 && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -67,14 +820,14 @@ build compat/edit_cache: phony compat/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build compat/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\compat && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\compat && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build compat/rebuild_cache: phony compat/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt
 # =============================================================================
 
 
@@ -91,14 +844,14 @@ build compat/msvc/edit_cache: phony compat/msvc/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build compat/msvc/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\compat\msvc && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\compat\msvc && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build compat/msvc/rebuild_cache: phony compat/msvc/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt
 # =============================================================================
 
 
@@ -115,14 +868,14 @@ build src/edit_cache: phony src/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/rebuild_cache: phony src/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -139,14 +892,14 @@ build src/client/edit_cache: phony src/client/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/client/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\client && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\client && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/client/rebuild_cache: phony src/client/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -163,14 +916,14 @@ build src/config/edit_cache: phony src/config/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/config/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\config && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\config && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/config/rebuild_cache: phony src/config/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -187,14 +940,14 @@ build src/dring/edit_cache: phony src/dring/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/dring/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\dring && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\dring && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/dring/rebuild_cache: phony src/dring/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -211,14 +964,14 @@ build src/hooks/edit_cache: phony src/hooks/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/hooks/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\hooks && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\hooks && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/hooks/rebuild_cache: phony src/hooks/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -235,14 +988,14 @@ build src/im/edit_cache: phony src/im/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/im/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\im && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\im && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/im/rebuild_cache: phony src/im/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -259,14 +1012,14 @@ build src/jamidht/edit_cache: phony src/jamidht/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/jamidht/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/rebuild_cache: phony src/jamidht/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt
 # =============================================================================
 
 
@@ -283,14 +1036,14 @@ build src/jamidht/eth/libdevcore/edit_cache: phony src/jamidht/eth/libdevcore/CM
 # Utility command for rebuild_cache
 
 build src/jamidht/eth/libdevcore/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht\eth\libdevcore && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht\eth\libdevcore && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/eth/libdevcore/rebuild_cache: phony src/jamidht/eth/libdevcore/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt
 # =============================================================================
 
 
@@ -307,14 +1060,14 @@ build src/jamidht/eth/libdevcrypto/edit_cache: phony src/jamidht/eth/libdevcrypt
 # Utility command for rebuild_cache
 
 build src/jamidht/eth/libdevcrypto/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht\eth\libdevcrypto && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\jamidht\eth\libdevcrypto && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/jamidht/eth/libdevcrypto/rebuild_cache: phony src/jamidht/eth/libdevcrypto/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -331,14 +1084,14 @@ build src/media/edit_cache: phony src/media/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/media/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/rebuild_cache: phony src/media/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt
 # =============================================================================
 
 
@@ -355,14 +1108,14 @@ build src/media/audio/edit_cache: phony src/media/audio/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build src/media/audio/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\audio && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\audio && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/audio/rebuild_cache: phony src/media/audio/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt
 # =============================================================================
 
 
@@ -379,14 +1132,14 @@ build src/media/audio/sound/edit_cache: phony src/media/audio/sound/CMakeFiles/e
 # Utility command for rebuild_cache
 
 build src/media/audio/sound/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\audio\sound && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\audio\sound && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/audio/sound/rebuild_cache: phony src/media/audio/sound/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt
 # =============================================================================
 
 
@@ -403,14 +1156,14 @@ build src/media/video/edit_cache: phony src/media/video/CMakeFiles/edit_cache.ut
 # Utility command for rebuild_cache
 
 build src/media/video/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\video && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\media\video && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/media/video/rebuild_cache: phony src/media/video/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -427,14 +1180,14 @@ build src/security/edit_cache: phony src/security/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/security/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\security && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\security && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/security/rebuild_cache: phony src/security/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -451,14 +1204,14 @@ build src/sip/edit_cache: phony src/sip/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/sip/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\sip && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\sip && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/sip/rebuild_cache: phony src/sip/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt
 # =============================================================================
 
 
@@ -475,14 +1228,14 @@ build src/upnp/edit_cache: phony src/upnp/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build src/upnp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/rebuild_cache: phony src/upnp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt
 # =============================================================================
 
 
@@ -499,14 +1252,14 @@ build src/upnp/protocol/edit_cache: phony src/upnp/protocol/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/protocol/rebuild_cache: phony src/upnp/protocol/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt
 # =============================================================================
 
 
@@ -523,14 +1276,14 @@ build src/upnp/protocol/natpmp/edit_cache: phony src/upnp/protocol/natpmp/CMakeF
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/natpmp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol\natpmp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol\natpmp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 build src/upnp/protocol/natpmp/rebuild_cache: phony src/upnp/protocol/natpmp/CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt
+# C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt
 # =============================================================================
 
 
@@ -547,7 +1300,7 @@ build src/upnp/protocol/pupnp/edit_cache: phony src/upnp/protocol/pupnp/CMakeFil
 # Utility command for rebuild_cache
 
 build src/upnp/protocol/pupnp/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol\pupnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp\daemon -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
+  COMMAND = cmd.exe /C "cd /D C:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86\src\upnp\protocol\pupnp && C:\Users\angai\AppData\Local\Android\Sdk\cmake\3.10.2.4988404\bin\cmake.exe -HC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\src\main\cpp -BC:\Users\angai\AndroidStudioProjects\MyJami\ring-android\libringclient\.cxx\cmake\debug\x86"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -555,6 +1308,8 @@ build src/upnp/protocol/pupnp/rebuild_cache: phony src/upnp/protocol/pupnp/CMake
 # =============================================================================
 # Target aliases.
 
+build libring.so: phony C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/x86/libring.so
+build ring: phony C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/x86/libring.so
 # =============================================================================
 # Folder targets.
 
@@ -692,7 +1447,7 @@ build  src/upnp/protocol/pupnp/all: phony
 #############################################
 # The main all target.
 
-build all: phony
+build all: phony C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/x86/libring.so
 
 #############################################
 # Make the all target the default.
@@ -702,13 +1457,13 @@ default all
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx
+build build.ninja: RERUN_CMAKE | C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Default.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/DefaultCXX.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Utils.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake
   pool = console
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/daemon/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake CMakeFiles/feature_tests.c CMakeFiles/feature_tests.cxx: phony
+build C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Default.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/DefaultCXX.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Utils.cmake C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/msvc/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/CMakeLists.txt C$:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/CMakeLists.txt C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake C$:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake C$:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake CMakeCache.txt CMakeFiles/3.10.2/CMakeCCompiler.cmake CMakeFiles/3.10.2/CMakeCXXCompiler.cmake CMakeFiles/3.10.2/CMakeSystem.cmake: phony
 
 #############################################
 # Clean all the built files.
