@@ -30,7 +30,7 @@
 #include <cstddef> // for size_t
 
 extern "C" {
-#include <libavutil/samplefmt.h>
+#include "libavutil/samplefmt.h"
 struct AVFrame;
 }
 

@@ -29,7 +29,7 @@
 #include <memory>
 #include <vector>
 
-#include "recordable.h"
+#include "media/recordable.h"
 
 namespace jami {
 

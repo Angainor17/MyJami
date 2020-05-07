@@ -1,1 +1,20 @@
 # ninja log v5
+1	14	0	clean	4c8f38d58595b830
+14	1416	610475679	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+30	1683	610476144	CMakeFiles/ring.dir/src/logger.cpp.o	af03395123188031
+1	16	0	clean	4c8f38d58595b830
+10	961	610488921	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+0	19	0	clean	4c8f38d58595b830
+16	1129	610489242	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+0	24	0	clean	4c8f38d58595b830
+9	1145	610489287	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+1146	2334	610489288	CMakeFiles/ring.dir/src/logger.cpp.o	af03395123188031
+0	16	0	clean	4c8f38d58595b830
+9	910	610489346	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+0	16	0	clean	4c8f38d58595b830
+21	1092	610489456	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+42	2094	610489457	CMakeFiles/ring.dir/src/logger.cpp.o	af03395123188031
+2	963	610490860	build.ninja	27e2122c52ce4073
+0	13	0	clean	4c8f38d58595b830
+12	912	610490871	CMakeFiles/ring.dir/src/buildinfo.cpp.o	e74097b28f5033b8
+913	2076	610490872	CMakeFiles/ring.dir/src/logger.cpp.o	af03395123188031

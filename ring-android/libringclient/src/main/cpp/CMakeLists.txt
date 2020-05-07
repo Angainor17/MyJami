@@ -12,6 +12,8 @@ project(ring)
 add_subdirectory("compat")
 add_subdirectory("src")
 
+
+
 source_group("Source Files" FILES ${Source_Files})
 source_group("Source Files\\client" FILES ${Source_Files__client})
 source_group("Source Files\\config" FILES ${Source_Files__config})
@@ -76,6 +78,9 @@ list (APPEND ALL_FILES
    include("CMake/Utils.cmake")
 
    add_library(${PROJECT_NAME} SHARED ${ALL_FILES})
+
+   target_link_libraries(${PROJECT_NAME} libopendht.a)
+
    set_target_properties(${PROJECT_NAME} PROPERTIES FOLDER "daemon")
 
    use_props(${PROJECT_NAME} "${CMAKE_CONFIGURATION_TYPES}" "${DEFAULT_CXX_PROPS}")

@@ -21,6 +21,7 @@
 #include "sip_utils.h"
 #include "logger.h"
 #include "utf8_utils.h"
+#include "../logger.h"
 
 #include <pjsip.h>
 #include <pjsip_ua.h>

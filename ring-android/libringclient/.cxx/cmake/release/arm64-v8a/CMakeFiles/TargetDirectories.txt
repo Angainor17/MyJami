@@ -1,3 +1,4 @@
+C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/release/arm64-v8a/CMakeFiles/ring.dir
 C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/release/arm64-v8a/CMakeFiles/edit_cache.dir
 C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/release/arm64-v8a/CMakeFiles/rebuild_cache.dir
 C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/release/arm64-v8a/compat/CMakeFiles/edit_cache.dir

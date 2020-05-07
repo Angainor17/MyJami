@@ -20,9 +20,9 @@
 
 #pragma once
 
-#include "config.h"
-#include "videomanager_interface.h"
-#include "observer.h"
+//#include "config.h"
+#include "../dring/videomanager_interface.h"
+#include "../observer.h"
 
 #include <memory>
 #include <functional>

@@ -20,7 +20,7 @@
 
 #pragma once
 
-#include "config.h"
+#include "../../compat/msvc/config.h"
 #include "media_buffer.h"
 #include "media_encoder.h"
 #include "media_filter.h"

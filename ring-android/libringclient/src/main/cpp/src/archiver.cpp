@@ -21,12 +21,13 @@
 #include "archiver.h"
 
 #include "client/ring_signal.h"
-#include "account_const.h"
-#include "configurationmanager_interface.h"
+#include "dring/account_const.h"
+#include "dring/configurationmanager_interface.h"
 
 #include "manager.h"
 #include "fileutils.h"
 #include "logger.h"
+#include "dring/configurationmanager_interface.h"
 
 #include <opendht/crypto.h>
 #include <json/json.h>

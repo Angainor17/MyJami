@@ -625,6 +625,222 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"dirty","type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/compat/msvc/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Default.cmake","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Default.cmake","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/Utils.cmake","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/CMake/DefaultCXX.cmake","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/config/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/client/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/dring/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/security/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/audio/sound/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/media/video/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/im/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/hooks/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcore/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/jamidht/eth/libdevcrypto/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/sip/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/natpmp/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
+CMAKE SERVER: {"cookie":"","inReplyTo":"","name":"fileChange","path":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp/src/upnp/protocol/pupnp/CMakeLists.txt","properties":["change"],"type":"signal"}
+
+CMAKE SERVER: ]== "CMake Server" ==]
+
+CMAKE SERVER: 
+
+CMAKE SERVER: [== "CMake Server" ==[
+
 CMAKE SERVER: {"buildFiles":[{"isCMake":true,"isTemporary":false,"sources":["C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake","C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake"]},{"isCMake":false,"isTemporary":false,"sources":["CMakeLists.txt","C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/android.toolchain.cmake","C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/build/cmake/platforms.cmake","CMake/Utils.cmake","CMake/Default.cmake","CMake/DefaultCXX.cmake","CMake/Default.cmake","compat/CMakeLists.txt","compat/msvc/CMakeLists.txt","src/CMakeLists.txt","src/client/CMakeLists.txt","src/config/CMakeLists.txt","src/dring/CMakeLists.txt","src/hooks/CMakeLists.txt","src/im/CMakeLists.txt","src/jamidht/CMakeLists.txt","src/jamidht/eth/libdevcore/CMakeLists.txt","src/jamidht/eth/libdevcrypto/CMakeLists.txt","src/media/CMakeLists.txt","src/media/audio/CMakeLists.txt","src/media/audio/sound/CMakeLists.txt","src/media/video/CMakeLists.txt","src/security/CMakeLists.txt","src/sip/CMakeLists.txt","src/upnp/CMakeLists.txt","src/upnp/protocol/CMakeLists.txt","src/upnp/protocol/natpmp/CMakeLists.txt","src/upnp/protocol/pupnp/CMakeLists.txt"]},{"isCMake":false,"isTemporary":true,"sources":["../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake","../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake","../../../.cxx/cmake/debug/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake"]}],"cmakeRootDirectory":"C:/Users/angai/AppData/Local/Android/Sdk/cmake/3.10.2.4988404/share/cmake-3.10","cookie":"","inReplyTo":"cmakeInputs","sourceDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
@@ -639,7 +855,7 @@ CMAKE SERVER:
 
 CMAKE SERVER: [== "CMake Server" ==[
 
-CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/armeabi-v7a","name":"ring","sourceDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp","targets":[{"artifacts":["C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/armeabi-v7a/libring.so"],"buildDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["ring_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["src/account.cpp","src/account_factory.cpp","src/archiver.cpp","src/base64.cpp","src/buildinfo.cpp","src/call.cpp","src/call_factory.cpp","src/conference.cpp","src/data_transfer.cpp","src/fileutils.cpp","src/ftp_server.cpp","src/ice_transport.cpp","src/ip_utils.cpp","src/logger.cpp","src/manager.cpp","src/peer_connection.cpp","src/preferences.cpp","src/ring_api.cpp","src/scheduled_executor.cpp","src/smartools.cpp","src/string_utils.cpp","src/threadloop.cpp","src/turn_transport.cpp","src/utf8_utils.cpp","src/client/callmanager.cpp","src/client/configurationmanager.cpp","src/client/datatransfer.cpp","src/client/presencemanager.cpp","src/client/ring_signal.cpp","src/client/videomanager.cpp","src/config/yamlparser.cpp","src/hooks/urlhook.cpp","src/im/instant_messaging.cpp","src/im/message_engine.cpp","src/jamidht/account_manager.cpp","src/jamidht/accountarchive.cpp","src/jamidht/archive_account_manager.cpp","src/jamidht/connectionmanager.cpp","src/jamidht/channeled_transport.cpp","src/jamidht/contact_list.cpp","src/jamidht/jamiaccount.cpp","src/jamidht/multiplexed_socket.cpp","src/jamidht/namedirectory.cpp","src/jamidht/p2p.cpp","src/jamidht/server_account_manager.cpp","src/jamidht/sips_transport_ice.cpp","src/jamidht/eth/libdevcore/Common.cpp","src/jamidht/eth/libdevcore/CommonData.cpp","src/jamidht/eth/libdevcore/FixedHash.cpp","src/jamidht/eth/libdevcore/SHA3.cpp","src/jamidht/eth/libdevcrypto/Common.cpp","src/media/congestion_control.cpp","src/media/libav_utils.cpp","src/media/localrecorder.cpp","src/media/localrecordermanager.cpp","src/media/media_buffer.cpp","src/media/media_codec.cpp","src/media/media_decoder.cpp","src/media/media_encoder.cpp","src/media/media_filter.cpp","src/media/media_io_handle.cpp","src/media/media_player.cpp","src/media/media_recorder.cpp","src/media/recordable.cpp","src/media/socket_pair.cpp","src/media/system_codec_container.cpp","src/media/audio/audio_frame_resizer.cpp","src/media/audio/audio_input.cpp","src/media/audio/audio_receive_thread.cpp","src/media/audio/audio_rtp_session.cpp","src/media/audio/audio_sender.cpp","src/media/audio/audiobuffer.cpp","src/media/audio/audiolayer.cpp","src/media/audio/audioloop.cpp","src/media/audio/dcblocker.cpp","src/media/audio/resampler.cpp","src/media/audio/ringbuffer.cpp","src/media/audio/ringbufferpool.cpp","src/media/audio/tonecontrol.cpp","src/media/audio/dsp.cpp","src/media/audio/sound/audiofile.cpp","src/media/audio/sound/dtmf.cpp","src/media/audio/sound/dtmfgenerator.cpp","src/media/audio/sound/tone.cpp","src/media/audio/sound/tonelist.cpp","src/media/video/accel.cpp","src/media/video/filter_transpose.cpp","src/media/video/sinkclient.cpp","src/media/video/video_base.cpp","src/media/video/video_device_monitor.cpp","src/media/video/video_input.cpp","src/media/video/video_mixer.cpp","src/media/video/video_receive_thread.cpp","src/media/video/video_rtp_session.cpp","src/media/video/video_scaler.cpp","src/media/video/video_sender.cpp","src/security/certstore.cpp","src/security/diffie-hellman.cpp","src/security/memory.cpp","src/security/tls_session.cpp","src/security/tlsvalidator.cpp","src/sip/pres_sub_client.cpp","src/sip/pres_sub_server.cpp","src/sip/sdes_negotiator.cpp","src/sip/sdp.cpp","src/sip/sip_utils.cpp","src/sip/sipaccount.cpp","src/sip/sipaccountbase.cpp","src/sip/sipcall.cpp","src/sip/sippresence.cpp","src/sip/siptransport.cpp","src/sip/sipvoiplink.cpp","src/upnp/upnp_context.cpp","src/upnp/upnp_control.cpp","src/upnp/protocol/igd.cpp","src/upnp/protocol/mapping.cpp","src/upnp/protocol/natpmp/nat_pmp.cpp","src/upnp/protocol/natpmp/pmp_igd.cpp","src/upnp/protocol/pupnp/pupnp.cpp","src/upnp/protocol/pupnp/upnp_igd.cpp"]},{"isGenerated":false,"sources":["src/account.h","src/account_factory.h","src/account_schema.h","src/archiver.h","src/array_size.h","src/base64.h","src/call.h","src/call_factory.h","src/channel.h","src/compiler_intrinsics.h","src/conference.h","src/data_transfer.h","src/enumclass_utils.h","src/fileutils.h","src/ftp_server.h","src/generic_io.h","src/ice_socket.h","src/ice_transport.h","src/ip_utils.h","src/logger.h","src/manager.h","src/map_utils.h","src/noncopyable.h","src/peer_connection.h","src/preferences.h","src/rational.h","src/registration_states.h","src/ring_types.h","src/rw_mutex.h","src/scheduled_executor.h","src/smartools.h","src/string_utils.h","src/threadloop.h","src/turn_transport.h","src/utf8_utils.h","src/client/ring_signal.h","src/client/videomanager.h","src/config/serializable.h","src/config/yamlparser.h","src/dring/account_const.h","src/dring/call_const.h","src/dring/callmanager_interface.h","src/dring/configurationmanager_interface.h","src/dring/datatransfer_interface.h","src/dring/dring.h","src/dring/media_const.h","src/dring/presence_const.h","src/dring/presencemanager_interface.h","src/dring/security_const.h","src/dring/videomanager_interface.h","src/hooks/urlhook.h","src/im/instant_messaging.h","src/im/message_engine.h","src/jamidht/abstract_sip_transport.h","src/jamidht/account_manager.h","src/jamidht/accountarchive.h","src/jamidht/archive_account_manager.h","src/jamidht/configkeys.h","src/jamidht/connectionmanager.h","src/jamidht/channeled_transport.h","src/jamidht/contact_list.h","src/jamidht/jami_contact.h","src/jamidht/jamiaccount.h","src/jamidht/multiplexed_socket.h","src/jamidht/namedirectory.h","src/jamidht/p2p.h","src/jamidht/server_account_manager.h","src/jamidht/sips_transport_ice.h","src/jamidht/eth/libdevcore/Address.h","src/jamidht/eth/libdevcore/Common.h","src/jamidht/eth/libdevcore/CommonData.h","src/jamidht/eth/libdevcore/FixedHash.h","src/jamidht/eth/libdevcore/Makefile.am","src/jamidht/eth/libdevcore/SHA3.h","src/jamidht/eth/libdevcore/vector_ref.h","src/jamidht/eth/libdevcrypto/Common.h","src/media/congestion_control.h","src/media/decoder_finder.h","src/media/libav_deps.h","src/media/libav_utils.h","src/media/localrecorder.h","src/media/localrecordermanager.h","src/media/media_buffer.h","src/media/media_codec.h","src/media/media_decoder.h","src/media/media_device.h","src/media/media_encoder.h","src/media/media_filter.h","src/media/media_io_handle.h","src/media/media_player.h","src/media/media_recorder.h","src/media/media_stream.h","src/media/recordable.h","src/media/rtp_session.h","src/media/socket_pair.h","src/media/srtp.h","src/media/system_codec_container.h","src/media/audio/audio_frame_resizer.h","src/media/audio/audio_input.h","src/media/audio/audio_receive_thread.h","src/media/audio/audio_rtp_session.h","src/media/audio/audio_sender.h","src/media/audio/audiobuffer.h","src/media/audio/audiolayer.h","src/media/audio/audioloop.h","src/media/audio/dcblocker.h","src/media/audio/resampler.h","src/media/audio/ringbuffer.h","src/media/audio/ringbufferpool.h","src/media/audio/tonecontrol.h","src/media/audio/dsp.h","src/media/audio/sound/audiofile.h","src/media/audio/sound/dtmf.h","src/media/audio/sound/dtmfgenerator.h","src/media/audio/sound/tone.h","src/media/audio/sound/tonelist.h","src/media/video/accel.h","src/media/video/filter_transpose.h","src/media/video/shm_header.h","src/media/video/sinkclient.h","src/media/video/video_base.h","src/media/video/video_device.h","src/media/video/video_device_monitor.h","src/media/video/video_input.h","src/media/video/video_mixer.h","src/media/video/video_receive_thread.h","src/media/video/video_rtp_session.h","src/media/video/video_scaler.h","src/media/video/video_sender.h","src/security/certstore.h","src/security/diffie-hellman.h","src/security/memory.h","src/security/tls_session.h","src/security/tlsvalidator.h","src/sip/pres_sub_client.h","src/sip/pres_sub_server.h","src/sip/sdes_negotiator.h","src/sip/sdp.h","src/sip/sip_utils.h","src/sip/sipaccount.h","src/sip/sipaccountbase.h","src/sip/sipcall.h","src/sip/sippresence.h","src/sip/siptransport.h","src/sip/sipvoiplink.h","src/upnp/upnp_context.h","src/upnp/upnp_control.h","src/upnp/protocol/global_mapping.h","src/upnp/protocol/igd.h","src/upnp/protocol/mapping.h","src/upnp/protocol/upnp_protocol.h","src/upnp/protocol/natpmp/nat_pmp.h","src/upnp/protocol/natpmp/pmp_igd.h","src/upnp/protocol/pupnp/pupnp.h","src/upnp/protocol/pupnp/upnp_igd.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","defines":["ring_EXPORTS"],"isGenerated":false,"language":"C","sources":["src/media/srtp.c"]}],"fullName":"libring.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-latomic -lm","linkerLanguage":"CXX","name":"ring","sourceDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp","sysroot":"C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
+CMAKE SERVER: {"configurations":[{"name":"Debug","projects":[{"buildDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/armeabi-v7a","name":"ring","sourceDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp","targets":[{"artifacts":["C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/build/intermediates/cmake/debug/obj/armeabi-v7a/libring.so"],"buildDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/armeabi-v7a","fileGroups":[{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -O0 -fno-limit-debug-info  -fPIC  ","defines":["ring_EXPORTS"],"isGenerated":false,"language":"CXX","sources":["src/account.cpp","src/account_factory.cpp","src/archiver.cpp","src/base64.cpp","src/buildinfo.cpp","src/call.cpp","src/call_factory.cpp","src/conference.cpp","src/data_transfer.cpp","src/fileutils.cpp","src/ftp_server.cpp","src/ice_transport.cpp","src/ip_utils.cpp","src/logger.cpp","src/manager.cpp","src/peer_connection.cpp","src/preferences.cpp","src/ring_api.cpp","src/scheduled_executor.cpp","src/smartools.cpp","src/string_utils.cpp","src/threadloop.cpp","src/turn_transport.cpp","src/utf8_utils.cpp","src/client/callmanager.cpp","src/client/configurationmanager.cpp","src/client/datatransfer.cpp","src/client/presencemanager.cpp","src/client/ring_signal.cpp","src/client/videomanager.cpp","src/config/yamlparser.cpp","src/hooks/urlhook.cpp","src/im/instant_messaging.cpp","src/im/message_engine.cpp","src/jamidht/account_manager.cpp","src/jamidht/accountarchive.cpp","src/jamidht/archive_account_manager.cpp","src/jamidht/connectionmanager.cpp","src/jamidht/channeled_transport.cpp","src/jamidht/contact_list.cpp","src/jamidht/jamiaccount.cpp","src/jamidht/multiplexed_socket.cpp","src/jamidht/namedirectory.cpp","src/jamidht/p2p.cpp","src/jamidht/server_account_manager.cpp","src/jamidht/sips_transport_ice.cpp","src/jamidht/eth/libdevcore/Common.cpp","src/jamidht/eth/libdevcore/CommonData.cpp","src/jamidht/eth/libdevcore/FixedHash.cpp","src/jamidht/eth/libdevcore/SHA3.cpp","src/jamidht/eth/libdevcrypto/Common.cpp","src/media/congestion_control.cpp","src/media/libav_utils.cpp","src/media/localrecorder.cpp","src/media/localrecordermanager.cpp","src/media/media_buffer.cpp","src/media/media_codec.cpp","src/media/media_decoder.cpp","src/media/media_encoder.cpp","src/media/media_filter.cpp","src/media/media_io_handle.cpp","src/media/media_player.cpp","src/media/media_recorder.cpp","src/media/recordable.cpp","src/media/socket_pair.cpp","src/media/system_codec_container.cpp","src/media/audio/audio_frame_resizer.cpp","src/media/audio/audio_input.cpp","src/media/audio/audio_receive_thread.cpp","src/media/audio/audio_rtp_session.cpp","src/media/audio/audio_sender.cpp","src/media/audio/audiobuffer.cpp","src/media/audio/audiolayer.cpp","src/media/audio/audioloop.cpp","src/media/audio/dcblocker.cpp","src/media/audio/resampler.cpp","src/media/audio/ringbuffer.cpp","src/media/audio/ringbufferpool.cpp","src/media/audio/tonecontrol.cpp","src/media/audio/dsp.cpp","src/media/audio/sound/audiofile.cpp","src/media/audio/sound/dtmf.cpp","src/media/audio/sound/dtmfgenerator.cpp","src/media/audio/sound/tone.cpp","src/media/audio/sound/tonelist.cpp","src/media/video/accel.cpp","src/media/video/filter_transpose.cpp","src/media/video/sinkclient.cpp","src/media/video/video_base.cpp","src/media/video/video_device_monitor.cpp","src/media/video/video_input.cpp","src/media/video/video_mixer.cpp","src/media/video/video_receive_thread.cpp","src/media/video/video_rtp_session.cpp","src/media/video/video_scaler.cpp","src/media/video/video_sender.cpp","src/security/certstore.cpp","src/security/diffie-hellman.cpp","src/security/memory.cpp","src/security/tls_session.cpp","src/security/tlsvalidator.cpp","src/sip/pres_sub_client.cpp","src/sip/pres_sub_server.cpp","src/sip/sdes_negotiator.cpp","src/sip/sdp.cpp","src/sip/sip_utils.cpp","src/sip/sipaccount.cpp","src/sip/sipaccountbase.cpp","src/sip/sipcall.cpp","src/sip/sippresence.cpp","src/sip/siptransport.cpp","src/sip/sipvoiplink.cpp","src/upnp/upnp_context.cpp","src/upnp/upnp_control.cpp","src/upnp/protocol/igd.cpp","src/upnp/protocol/mapping.cpp","src/upnp/protocol/natpmp/nat_pmp.cpp","src/upnp/protocol/natpmp/pmp_igd.cpp","src/upnp/protocol/pupnp/pupnp.cpp","src/upnp/protocol/pupnp/upnp_igd.cpp"]},{"isGenerated":false,"sources":["src/account.h","src/account_factory.h","src/account_schema.h","src/archiver.h","src/array_size.h","src/base64.h","src/call.h","src/call_factory.h","src/channel.h","src/compiler_intrinsics.h","src/conference.h","src/data_transfer.h","src/enumclass_utils.h","src/fileutils.h","src/ftp_server.h","src/generic_io.h","src/ice_socket.h","src/ice_transport.h","src/ip_utils.h","src/logger.h","src/manager.h","src/map_utils.h","src/noncopyable.h","src/peer_connection.h","src/preferences.h","src/rational.h","src/registration_states.h","src/ring_types.h","src/rw_mutex.h","src/scheduled_executor.h","src/smartools.h","src/string_utils.h","src/threadloop.h","src/turn_transport.h","src/utf8_utils.h","src/client/ring_signal.h","src/client/videomanager.h","src/config/serializable.h","src/config/yamlparser.h","src/dring/account_const.h","src/dring/call_const.h","src/dring/callmanager_interface.h","src/dring/configurationmanager_interface.h","src/dring/datatransfer_interface.h","src/dring/dring.h","src/dring/media_const.h","src/dring/presence_const.h","src/dring/presencemanager_interface.h","src/dring/security_const.h","src/dring/videomanager_interface.h","src/hooks/urlhook.h","src/im/instant_messaging.h","src/im/message_engine.h","src/jamidht/abstract_sip_transport.h","src/jamidht/account_manager.h","src/jamidht/accountarchive.h","src/jamidht/archive_account_manager.h","src/jamidht/configkeys.h","src/jamidht/connectionmanager.h","src/jamidht/channeled_transport.h","src/jamidht/contact_list.h","src/jamidht/jami_contact.h","src/jamidht/jamiaccount.h","src/jamidht/multiplexed_socket.h","src/jamidht/namedirectory.h","src/jamidht/p2p.h","src/jamidht/server_account_manager.h","src/jamidht/sips_transport_ice.h","src/jamidht/eth/libdevcore/Address.h","src/jamidht/eth/libdevcore/Common.h","src/jamidht/eth/libdevcore/CommonData.h","src/jamidht/eth/libdevcore/FixedHash.h","src/jamidht/eth/libdevcore/Makefile.am","src/jamidht/eth/libdevcore/SHA3.h","src/jamidht/eth/libdevcore/vector_ref.h","src/jamidht/eth/libdevcrypto/Common.h","src/media/congestion_control.h","src/media/decoder_finder.h","src/media/libav_deps.h","src/media/libav_utils.h","src/media/localrecorder.h","src/media/localrecordermanager.h","src/media/media_buffer.h","src/media/media_codec.h","src/media/media_decoder.h","src/media/media_device.h","src/media/media_encoder.h","src/media/media_filter.h","src/media/media_io_handle.h","src/media/media_player.h","src/media/media_recorder.h","src/media/media_stream.h","src/media/recordable.h","src/media/rtp_session.h","src/media/socket_pair.h","src/media/srtp.h","src/media/system_codec_container.h","src/media/audio/audio_frame_resizer.h","src/media/audio/audio_input.h","src/media/audio/audio_receive_thread.h","src/media/audio/audio_rtp_session.h","src/media/audio/audio_sender.h","src/media/audio/audiobuffer.h","src/media/audio/audiolayer.h","src/media/audio/audioloop.h","src/media/audio/dcblocker.h","src/media/audio/resampler.h","src/media/audio/ringbuffer.h","src/media/audio/ringbufferpool.h","src/media/audio/tonecontrol.h","src/media/audio/dsp.h","src/media/audio/sound/audiofile.h","src/media/audio/sound/dtmf.h","src/media/audio/sound/dtmfgenerator.h","src/media/audio/sound/tone.h","src/media/audio/sound/tonelist.h","src/media/video/accel.h","src/media/video/filter_transpose.h","src/media/video/shm_header.h","src/media/video/sinkclient.h","src/media/video/video_base.h","src/media/video/video_device.h","src/media/video/video_device_monitor.h","src/media/video/video_input.h","src/media/video/video_mixer.h","src/media/video/video_receive_thread.h","src/media/video/video_rtp_session.h","src/media/video/video_scaler.h","src/media/video/video_sender.h","src/security/certstore.h","src/security/diffie-hellman.h","src/security/memory.h","src/security/tls_session.h","src/security/tlsvalidator.h","src/sip/pres_sub_client.h","src/sip/pres_sub_server.h","src/sip/sdes_negotiator.h","src/sip/sdp.h","src/sip/sip_utils.h","src/sip/sipaccount.h","src/sip/sipaccountbase.h","src/sip/sipcall.h","src/sip/sippresence.h","src/sip/siptransport.h","src/sip/sipvoiplink.h","src/upnp/upnp_context.h","src/upnp/upnp_control.h","src/upnp/protocol/global_mapping.h","src/upnp/protocol/igd.h","src/upnp/protocol/mapping.h","src/upnp/protocol/upnp_protocol.h","src/upnp/protocol/natpmp/nat_pmp.h","src/upnp/protocol/natpmp/pmp_igd.h","src/upnp/protocol/pupnp/pupnp.h","src/upnp/protocol/pupnp/upnp_igd.h"]},{"compileFlags":"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -O0 -fno-limit-debug-info  -fPIC  ","defines":["ring_EXPORTS"],"isGenerated":false,"language":"C","sources":["src/media/srtp.c"]}],"fullName":"libring.so","linkFlags":"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments","linkLibraries":"-Wl,-Bstatic -lopendht -Wl,-Bdynamic -latomic -lm","linkerLanguage":"CXX","name":"ring","sourceDirectory":"C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp","sysroot":"C:/Users/angai/AppData/Local/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/windows-x86_64/sysroot","type":"SHARED_LIBRARY"}]}]}],"cookie":"","inReplyTo":"codemodel","type":"reply"}
 
 CMAKE SERVER: ]== "CMake Server" ==]
 

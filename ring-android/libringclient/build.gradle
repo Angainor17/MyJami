@@ -21,8 +21,9 @@ android {
 
     sourceSets {
         main {
+//            jniLibs.srcDir 'src/main/cpp'
             jniLibs.srcDir 'src/main/cpp'
-            jni.srcDirs = []
+            jni.srcDirs = ['src/main/jniLibs']
         }
         debug.setRoot('build-types/debug')
         release.setRoot('build-types/release')
@@ -63,39 +64,3 @@ android {
         implementation "io.reactivex.rxjava2:rxjava:2.1.9"
     }
 }
-
-//task buildNative(type: Exec) {
-//    if (System.env.ANDROID_NDK != null) {
-//        println 'Running NDK build'
-//        workingDir "src/main"
-//        commandLine 'cmd', '/c', '%ANDROID_NDK%/ndk-build'
-//    } else {
-//        doLast {
-//            println '##################'
-//            println 'Skipping NDK build'
-//            println 'Reason: ANDROID_NDK not set.'
-//            println '##################'
-//        }
-//    }
-//}
-//
-//task copyNativeLibs(dependsOn:buildNative, type: Copy) {
-//    println 'Copying *.so files from /src/main/libs to /build/lib'
-//    from(new File('src/main/libs')) { include '**/*.so' }
-//    into new File(buildDir, 'lib')
-//}
-//
-//task nativeLibsToJar(dependsOn:copyNativeLibs, type: Exec, description: 'create a jar archive of the native libs') {
-//    println 'Compressing /build/lib into /libs/lib.jar'
-//    workingDir "build"
-//    commandLine 'cmd', '/c', 'jar cf ../libs/lib.jar lib'
-//}
-//
-//tasks.withType(Compile) { compileTask -> compileTask.dependsOn nativeLibsToJar }
-//
-//clean.dependsOn 'cleanCopyNativeLibs'
-//
-//tasks.withType(com.android.build.gradle.tasks.PackageApplication) { pkgTask ->
-//    pkgTask.jniFolders = new HashSet<File>();
-//    pkgTask.jniFolders.add(new File(projectDir, 'native-libs'))
-//}

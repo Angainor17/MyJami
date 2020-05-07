@@ -22,7 +22,9 @@
 #ifndef __MEDIA_ENCODER_H__
 #define __MEDIA_ENCODER_H__
 
-#include "config.h"
+//#include "config.h"
+#include "media_io_handle.h"
+#include "media_decoder.h"
 
 #ifdef ENABLE_VIDEO
 #include "video/video_base.h"

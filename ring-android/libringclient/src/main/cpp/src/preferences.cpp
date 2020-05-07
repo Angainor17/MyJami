@@ -25,7 +25,7 @@
 
 #include "preferences.h"
 #include "logger.h"
-#include "audio/audiolayer.h"
+#include "media/audio/audiolayer.h"
 #if HAVE_OPENSL
 #include "audio/opensl/opensllayer.h"
 #else

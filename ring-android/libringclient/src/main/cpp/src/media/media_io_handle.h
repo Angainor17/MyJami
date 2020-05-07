@@ -21,7 +21,7 @@
 #ifndef __MEDIA_IO_HANDLE_H__
 #define __MEDIA_IO_HANDLE_H__
 
-#include "noncopyable.h"
+#include "../noncopyable.h"
 
 #include <cstdlib>
 #include <cstdint>

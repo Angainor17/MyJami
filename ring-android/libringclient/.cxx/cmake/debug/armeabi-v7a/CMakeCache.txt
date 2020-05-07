@@ -213,8 +213,8 @@ CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 //Value Computed by CMake
 ring_BINARY_DIR:STATIC=C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/.cxx/cmake/debug/armeabi-v7a
 
-//Dependencies for target
-ring_LIB_DEPENDS:STATIC=
+//Dependencies for the target
+ring_LIB_DEPENDS:STATIC=general;libopendht.a;
 
 //Value Computed by CMake
 ring_SOURCE_DIR:STATIC=C:/Users/angai/AndroidStudioProjects/MyJami/ring-android/libringclient/src/main/cpp

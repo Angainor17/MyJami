@@ -24,7 +24,7 @@
 #include "config.h"
 #endif
 
-#include "account.h"
+#include "../account.h"
 
 #include "sip_utils.h"
 #include "ip_utils.h"

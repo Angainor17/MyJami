@@ -27,7 +27,7 @@
 #include "config.h"
 #endif
 
-#include "configurationmanager_interface.h"
+#include "dring/configurationmanager_interface.h"
 #include "noncopyable.h"
 #include "config/serializable.h"
 #include "registration_states.h"
